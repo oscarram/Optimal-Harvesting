@@ -1,0 +1,37 @@
+\documentclass[twoside,colorback,accentcolor=tud4c,11pt]{tudreport}
+\usepackage[english]{babel}
+
+\usepackage[stable]{footmisc}
+\usepackage[ngerman,pdfview=FitH,pdfstartview=FitV]{hyperref}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+
+\newlength{\longtablewidth}
+\setlength{\longtablewidth}{0.675\linewidth}
+
+\title{Optimal Harvesting Modelling}
+\subtitle{Report 1}
+%\subsubtitle{email: \textaccent{tud-design@pro-kevin.de}}
+%\uppertitleback{(\textaccent{\textbackslash uppertitleback})}
+%\lowertitleback{(\textaccent{\textbackslash lowertitleback})\hfill\today}
+\institution{Centre de Recerca Matem\`atica\\ Universitat Auton\`onoma de Barcelona \\ Group number 4.}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}  
+
+\tableofcontents
+
+\chapter{Problem Framework}\label{chap:Problem Framework}
+\input{ProblemFramework.tex}
+\chapter{Non-linear Model and Stationary points.} \label{chap: Deterministic Model}
+\input{NonLinear.tex}
+\chapter{Population Functionals}\label{chap: Population Functional}
+\input{Functionals.tex}
+\chapter{Further Research}\label{chap: Further Enhancements}
+\input{FurtherResearch.tex}
+\end{document}
