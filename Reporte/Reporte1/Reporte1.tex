@@ -8,6 +8,23 @@
 \usepackage{multirow}
 \usepackage{longtable}
 
+
+
+\usepackage{mathtools}
+\usepackage[stable]{footmisc}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{listings}
+
+
+
+
+
+
+
 \newlength{\longtablewidth}
 \setlength{\longtablewidth}{0.675\linewidth}
 
@@ -18,20 +35,29 @@
 %\lowertitleback{(\textaccent{\textbackslash lowertitleback})\hfill\today}
 \institution{Centre de Recerca Matem\`atica\\ Universitat Auton\`onoma de Barcelona \\ Group number 4.}
 
+
+\input{Libraries/Commands.tex}
+
 \begin{document}
 \maketitle
 \begin{abstract}
-\input{abstract.tex}
+
 \end{abstract}  
 
 \tableofcontents
 
 \chapter{Problem Framework}\label{chap:Problem Framework}
-\input{ProblemFramework.tex}
-\chapter{Non-linear Model and Stationary points.} \label{chap: Deterministic Model}
-\input{NonLinear.tex}
-\chapter{Population Functionals}\label{chap: Population Functional}
-\input{Functionals.tex}
+\input{ProblemFramework/ProblemFramework.tex}
+\chapter{Deterministic Model.} \label{chap: Deterministic Model}
+\section{Logistic Equation.}
+\section{Optimization problem.}
+\input{Model/Optimization/OptimalControl/OptimalControl.tex}
+\subsection{Optimal Control.}
+\subsection{Error Analysis.}
+\chapter{Optimizing Algorithms and Simulation.}
+\subsection{Algorithm.}
+\subsection{}
+\chapter{Presence of Noise}\label{chap: Population Functional}
+
 \chapter{Further Research}\label{chap: Further Enhancements}
-\input{FurtherResearch.tex}
 \end{document}

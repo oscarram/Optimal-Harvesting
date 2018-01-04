@@ -1,5 +1,0 @@
-\select@language {english}
-\contentsline {chapter}{\numberline {1}Problem Framework}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Non-linear Model and Stationary points.}{4}{chapter.2}
-\contentsline {chapter}{\numberline {3}Population Functionals}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Further Research}{6}{chapter.4}
