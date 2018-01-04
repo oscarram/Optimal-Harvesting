@@ -1,2 +1,3 @@
 # Optimal-Harvesting
-A set of different latex templates for working in reports and presentations.
+## Latex Template for Report and Presentation
+## A folder for the simulations to be performed.
