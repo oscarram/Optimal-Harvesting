@@ -5,26 +5,30 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
 def f(y, t, params):
-    theta, omega = y      # unpack current values of y
-    Q, d, Omega, z0,z1 = params  # unpack parameters
-    derivs = [omega,      # list of dy/dt=f functions
-             -omega/Q + z0(theta) + d*z1(Omega*t)]
+    P, lamb = y      # unpack current values of y
+    r, M, alpha, z0, z1 = params  # unpack parameters
+    derivs = [P, -r*lamb]      # list of dy/dt=f functions
     return derivs
 
+#For this implementation we assume fixed grid with constant 
+def fn(yn,t,T):
+	s= t[1]-t[0]
+	
+
 # Parameters
-Q = 2.0          # quality factor (inverse damping)
-d = 1.5          # forcing amplitude
-Omega = 0.65     # drive frequency
+r = 0.8          # quality factor (inverse damping)
+M = 780500.0         # forcing amplitude
+alpha = 0.5     # drive frequency
 
 # Initial values
-theta0 = 0.0     # initial angular displacement
-omega0 = 0.0     # initial angular velocity
+P0 = 389482.0     # initial Popultation
+lamb0 = r*M/4     # initial angular velocity
 
 # Bundle parameters for ODE solver
-params = [Q, d, Omega, np.sin, np.cos]
+params = [r, M, alpha, np.sin, np.cos]
 
 # Bundle initial conditions for ODE solver
-y0 = [theta0, omega0]
+y0 = [P0, lamb0]
 
 # Make time array for solution
 tStop = 200.
