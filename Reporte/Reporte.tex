@@ -20,11 +20,6 @@
 \usepackage{listings}
 
 
-
-
-
-
-
 \newlength{\longtablewidth}
 \setlength{\longtablewidth}{0.675\linewidth}
 
@@ -49,16 +44,37 @@
 \input{PreliminaryConcepts/Optimization.tex}
 \chapter{Problem Framework}\label{chap:Problem Framework}
 \input{ProblemFramework/ProblemFramework.tex}
-\chapter{Deterministic Model.} \label{chap: Deterministic Model}
-\section{Logistic Equation.}
-\section{Optimization problem.}
-\input{Model/Optimization/OptimalControl/OptimalControl.tex}
-\subsection{Optimal Control.}
-\subsection{Error Analysis.}
-\chapter{Optimizing Algorithms and Simulation.}
-\subsection{Algorithm.}
-\subsection{}
-\chapter{Presence of Noise}\label{chap: Population Functional}
-
+\chapter{Mathematical Models.} \label{chap: Deterministic Model}
+	\input{Model/report.tex}
+	\section{Exponential biological growth.}
+		\input{Model/ExponentialGrowth/report.tex}
+	\section{Logistic Equation.}
+		\input{Model/LogisticEquation/report.tex}
+	\section{Wiener Process and noise.} 
+		\input{Model/WienerProcess/report.tex}
+\chapter{Fishing Strategies and Optimizing Population} \label{chap: Fishing Strategies}
+	\section{Open Loop Strategies.}
+	\input{FishingStrategies/ClosedLoop/report.tex}
+		\subsection{Constant Harvesting Analysis.}
+		\input{FishingStrategies/OpenLoop/ConstantHarvest/report.tex}
+		\subsection{Time Varying Harvesting.}
+		\input{FishingStrategies/OpenLoop/TimeHarvesting/report.tex}
+		\subsection{Optimal Harvesting. Optimal Control Problem.}
+		\input{FishingStrategies/OpenLoop/OptimalControl/report.tex}
+	\section{Closed Loop Strategies.}
+		\input{FishingStrategies/ClosedLoop/report.tex}
+		\subsection{Constant Proportional Harvesting.}
+		\input{FishingStrategies/ClosedLoop/ConstantProportional/report.tex}
+		\subsection{Optimal Proportional Harvesting.}
+		\input{FishingStrategies/ClosedLoop/OptimalHarvest/report.tex}
+\chapter{Economical Profit}\label{chap: Economical Profit}
+	\input{Profiting/report.tex}
+	\section{Linear Costs.}
+	\input{Profiting/LinearCosts/report.tex}
+	\section{Quadratic Costs.}
+	\input{Profiting/QuadraticCosts/report.tex}
+	\section{Stochastic Analysis.}
+	\input{Profiting/Stochastic/report.tex}
 \chapter{Further Research}\label{chap: Further Enhancements}
+
 \end{document}

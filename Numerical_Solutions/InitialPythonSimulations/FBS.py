@@ -53,10 +53,10 @@ r=0.8; M=780500.0; alpha=1000.0;
 params=[r, M, alpha]
 
 tStop=12.0;
-tInc=1./60.;
+tInc=1./1000.;
 t= np.arange(0.0, tStop, tInc)
 
-x0=3.*M/4.0;
+x0=M/2.0;
 lamT=0.0;
 
 u=(r*M/4.0)*np.ones(len(t));
@@ -66,6 +66,7 @@ lam=np.ones(len(t));
 for k in range(0, 300):
 	uold=u;
 	[x, u] = FKutta(t, x, uold, fun, x0, params);
+	lamT=(x[len(t)-1]-M*0.5)
 	[x, u, lam]=BKutta(t, lam, x, uold, lun, lamT, params);
 	u=0.5*u+0.5*uold;
 	print(sum(r*M/4-u))

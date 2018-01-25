@@ -49,27 +49,34 @@ def lun(t, lam, x, u, params):
 	return (-x+M/2.0-lam*r+2.0*lam*r*x/M);
 
 
-r=0.8; M=780500.0; alpha=10.0;
+r=0.8; M=780500.0; alpha=45.00;
 params=[r, M, alpha]
 
 tStop=12.0;
 tInc=1./1200.;
 t= np.arange(0.0, tStop, tInc)
-x0=0.6*M;
-lamT=0.0;
+x0=0.445*M;
+lamT=M/2.0;
 
 u=(r*M/4.0)*np.ones(len(t));
 x=np.ones(len(t));
 lam=np.ones(len(t));
 
-for k in range(0, 30):
+for k in range(0, 150):
 	uold=u;
 	[x, u] = FKutta(t, x, uold, fun, x0, params);
-	lamT=x[len(t)-1]-M/2.0
-	[x, u, lam]=BKutta(t, lam, x, uold, lun, lamT, params);
+	lamT=0.5*tStop*(x[len(t)-1]-M*0.5)
+	#lamT=0.0;
+	[x, u, lam]=BKutta(t, lam, x, uold, lun, lamT, params);	
 	u=0.5*u+0.5*uold;
 	#print(tInc*sum(r*M/4-u))
-print(tInc*sum(r*M/4-u))
+
+#Constructing Optimal
+
+[x, u] = FKutta(t, x, uold, fun, x0, params);
+
+
+
 fig = plt.figure(1, figsize=(8,8))
 
 # Plot theta as a function of time

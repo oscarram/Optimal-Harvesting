@@ -10,10 +10,6 @@ def f(y, t, params):
     derivs = [P, -r*lamb]      # list of dy/dt=f functions
     return derivs
 
-#For this implementation we assume fixed grid with constant 
-def fn(yn,t,T):
-	s= t[1]-t[0]
-	
 
 # Parameters
 r = 0.8          # quality factor (inverse damping)
