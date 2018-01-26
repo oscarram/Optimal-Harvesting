@@ -1,0 +1,20 @@
+For Optimal Control we reduce the problem to the following,
+
+
+\begin{equation}
+\Min{\substack{x\in X \\ u \in U}}{J(x,u)}
+\end{equation}
+subject to,
+\begin{equation}
+	e(x,u)=0
+\end{equation}
+
+$h(t)=\frac{rM}{4}-u(t)$
+\begin{equation}
+	J(x,u)=\frac{\zeta}{2} \left(x(T)-\frac{M}{2}\right)^2+\frac{1}{2}\norm{x-\frac{M}{2}}^2_{L^2([0,T])}+\frac{\eta}{2}\norm{h}^2_{L^2([0,T])}
+\end{equation}
+
+subject to,
+\begin{equation}
+	\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-\frac{rM}{4}+h
+\end{equation}
