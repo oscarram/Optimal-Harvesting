@@ -1,0 +1,16 @@
+\begin{equation}
+	dx=\left(rx\left(1-\frac{x}{M}\right)-u\right)\diff{t}+\sigma x\diff{W}
+\end{equation}
+
+A unique solution exists if both It\'o conditions hold (Fleming and Rishel, 1975). The first is the linear growth condition.
+\begin{align}
+	\abs{rx\left(1-\frac{x}{M}\right)-u}&\leq K\left(1+\abs{x}\right) \\
+	\abs{\sigma x}&\leq K\left(1+\abs{x}\right)
+\end{align}
+
+and the Lipschitz condition,
+\begin{align}
+\abs{rx_2\left(1-\frac{x_2}{M}\right)-rx_1\left(1-\frac{x_1}{M}\right)}&\leq L \abs{x_2-x_1}\\
+\abs{\sigma\left(x_2-x_1\right)} &\leq L \abs{x_2-x_1}
+\end{align}
+For some independent constants $L$ and $K$.
