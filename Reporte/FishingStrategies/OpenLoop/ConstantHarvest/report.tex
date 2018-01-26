@@ -1,0 +1,74 @@
+\begin{equation}
+\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-u
+\end{equation}
+
+\begin{equation}
+\beta=\frac{uM}{r}
+\end{equation}
+
+\begin{align*}
+	\frac{\diff{x}}{rx\left(1-\frac{x}{M}\right)-u}&=\diff{t} \\
+	\int_{x_0}^{x}\frac{\diff{\chi}}{r\chi\left(1-\frac{\chi}{M}\right)-u}&=\int_{0}^{t}\diff{\tau} \\
+	\frac{M}{r}\int_{x_0}^{x}\frac{\diff{\chi}}{\chi\left(M-\chi\right)-\frac{Mu}{r}}&=t \\
+	-\frac{M}{r}\int_{x_0}^{x}\frac{\diff{\chi}}{\chi^2-M\chi+\beta}&=t 
+	\end{align*}
+\begin{align}
+	-\frac{M}{r}\int_{x_0}^{x}\frac{\diff{\chi}}{\left(\chi-\frac{M}{2}\right)^2-\frac{M^2}{4}+\beta}&=t
+\end{align}
+
+
+\begin{equation}
+	\alpha = \beta - \frac{M^2}{4} = rM\left(u-\frac{rM}{4}\right)
+\end{equation}
+
+
+If $u>rM/4$ implies $\alpha>0$
+
+\begin{align*}
+\int_{x_0}^{x}\frac{\diff{\chi}}{\left(\chi-\frac{M}{2}\right)^2+\alpha}&=-\frac{r}{M}t \\
+\frac{1}{\sqrt{\beta-\frac{M^2}{4}}}\left(\arctan\left(\frac{x-M/2}{\sqrt{\beta-M^2/4}}\right)-\arctan\left(\frac{x_0-M/2}{\sqrt{\beta-M^2/4}}\right)\right)&=-\frac{r}{M}t \\
+\end{align*}
+
+\begin{align}
+	x=\frac{M}{2}+\sqrt{\beta-\frac{M^2}{4}} \tan \left(\arctan\left(\frac{x_0-M/2}{\sqrt{\beta-M^2/4}}\right)-\frac{r\sqrt{\beta-M^2/4}}{M}t\right)
+\end{align}
+
+
+If $u<rM/4$ implies $\alpha<0$,
+\begin{align*}
+	\int_{x_0}^{x}\frac{\diff{\chi}}{\left(\chi-\frac{M}{2}\right)^2-\alpha} &=-\frac{r}{M}t
+\end{align*}
+
+\begin{equation}
+	\begin{array}{cc}
+	\lambda&=\frac{M}{2}+\sqrt{\frac{M^2}{4}-\beta} \\
+	\overline{\lambda}&=\frac{M}{2}-\sqrt{\frac{M^2}{4}-\beta} \\
+	\end{array}
+\end{equation}
+
+\begin{align*}
+\int_{x_0}^{x} \left(\frac{1}{\chi - \lambda}-\frac{1}{\chi - \overline{\lambda}}\right)\diff{\chi} &=-\frac{2r\sqrt{M^2/4-\beta}}{M}t \\
+	\ln\abs{\frac{x - \lambda}{x - \overline{\lambda}}}&=\ln\abs{\frac{x_0- \lambda}{x_0 - \overline{\lambda}}}-\frac{2r\sqrt{M^2/4-\beta}}{M}t
+\end{align*}
+	
+$\gamma=\frac{2r\sqrt{M^2/4-\beta}}{M}$
+
+\begin{align}
+\frac{x - \lambda}{x - \overline{\lambda}} &=\frac{x_0- \lambda}{x_0- \overline{\lambda}}\mathrm e^{-\gamma t} \\
+x-\lambda &=\left(x-\overline{\lambda}\right)\left(\frac{x_0- \lambda}{x_0- \overline{\lambda}}\right)\mathrm e^{-\gamma t}
+\end{align}
+
+$\xi=\frac{x_0-\lambda}{x_0-\overline{\lambda}}\mathrm{e}^{-\gamma t}$
+
+\begin{align*}
+	x\left(1-\xi\right)&=\lambda-\overline{\lambda}\xi\\
+	x&=\frac{\lambda-\overline{\lambda}\xi}{1-\xi} \\	
+	x&=\frac{\frac{M}{2}+\sqrt{\frac{M^2}{4}-\beta}-\left(\frac{M}{2}-\sqrt{\frac{M^2}{4}-\beta}\right)\xi}{1-\xi}\\
+	x&=\frac{\frac{M}{2}+\sqrt{\frac{M^2}{4}-\beta}-\left(\frac{M}{2}-\sqrt{\frac{M^2}{4}-\beta}\right)\xi}{1-\xi}\\
+	x&=\frac{\frac{M}{2}\left(1-\xi\right)+\sqrt{\frac{M^2}{4}-\beta}\left(1+\xi\right)}{1-\xi}\\
+	x&=\frac{M}{2}+\sqrt{\frac{M^2}{4}-\beta}\frac{1+\xi}{1-\xi}
+\end{align*}
+
+\begin{align}
+	x&=\frac{M}{2}+\left(\sqrt{\frac{M^2}{4}-\beta}\right)\frac{\left(x_0-M/2\right)\left(1+\mathrm e^{-\gamma t}\right)-\sqrt{M^2/4-\beta}\left(1-\mathrm{e}^{-\gamma t}\right)}{\left(x_0-M/2\right)\left(1-\mathrm e^{-\gamma t}\right)+\sqrt{M^2/4-\beta}\left(1+\mathrm{e}^{-\gamma t}\right)}
+\end{align}
