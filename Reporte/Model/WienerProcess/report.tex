@@ -14,7 +14,21 @@ We see that $\sup_{x\in\mathbb{R}} rx(1-x/M)$ is reached $x^*=M/2$, and it is un
 \end{align}
 Since $F(x,t)=rx(1-x/M)-u$ is continuously differentiable in $x$, $F$ Lipschitz in $x$ then condition \ref{eq: Lipschitz Det} is satisfied. For bounded $\sigma$, condition \ref{eq: Lipschitz Stoch} is satisfied.
 
-Since the above conditions are satisfied, we can guarantee existence and uniqueness of the solution for the equation \ref{eq: Constant Harvesting Stochastic}.
+Since the above conditions are satisfied, we can guarantee existence and uniqueness of the solution for the equation \ref{eq: Constant Harvesting Stochastic}. Given by the equation:
+\begin{equation}
+\begin{array}{lll}
+	x(t)&=&x_0+\int_{0}^{t}\left(rx\left(1-\frac{x}{M}\right)-u\right)\diff{t} + \int_{0}^{t}\sigma x \diff{W},\\
+	x(0)&=&x_0, \\
+	W(0)&=&0.
+\end{array}
+\end{equation}
 
+
+\begin{figure}[H]
+	\centering{
+	\includegraphics[width=0.6\textwidth]{Noise1.png}
+	}
+	\caption{Simulation performed of logistic equation \ref{eq: Constant Harvesting Stochastic}, with parameters $r=0.8\frac{1}{\text{month}\times\text{fish}}$, $x_0=\frac{M}{2}$, for a population in natural conditions (harvest exploitation $u=0$.), with presence of noise proportional to the population, with $\sigma=0.1$. Performed during 4 months.  }
+\end{figure}
 
 
