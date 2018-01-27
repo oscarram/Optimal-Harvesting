@@ -1,16 +1,20 @@
 \begin{equation}
-	dx=\left(rx\left(1-\frac{x}{M}\right)-u\right)\diff{t}+\sigma x\diff{W}
+	dx=\left(rx\left(1-\frac{x}{M}\right)-u\right)\diff{t}+\sigma x\diff{W} \label{eq: Constant Harvesting Stochastic}
 \end{equation}
 
-A unique solution exists if both It\'o conditions hold (Fleming and Rishel, 1975). The first is the linear growth condition.
+A unique solution exists if both It\'o conditions hold (Fleming and Rishel, 1975). The first one is the linear growth condition, for some independent constant $K$,
 \begin{align}
-	\abs{rx\left(1-\frac{x}{M}\right)-u}&\leq K\left(1+\abs{x}\right) \\
-	\abs{\sigma x}&\leq K\left(1+\abs{x}\right)
+	\abs{rx\left(1-\frac{x}{M}\right)-u}&\leq K\left(1+\abs{x}\right) \label{eq: LinearGrowth Det}\\
+	\abs{\sigma x}&\leq K\left(1+\abs{x}\right) \label{eq: LinearGrowth Stoch}
 \end{align}
+We see that $\sup_{x\in\mathbb{R}} rx(1-x/M)$ is reached $x^*=M/2$, and it is unique, with value $F(x^*,t)=\frac{rM}{4}-u$. Therefore for bounded $u$, $r$ and $\sigma$ conditions \ref{eq: LinearGrowth Det} and \ref{eq: LinearGrowth Stoch} are satisfied. The second one is the Lipschitz condition,$\exists L$ independent constant, and $\forall x$, $\exists B(x)$ neighborhood of $x$, such that $\forall x_1, x_2 \in B(x)$,
+\begin{align}
+\abs{rx_2\left(1-\frac{x_2}{M}\right)-rx_1\left(1-\frac{x_1}{M}\right)}&\leq L \abs{x_2-x_1} \label{eq: Lipschitz Det}\\
+\abs{\sigma\left(x_2-x_1\right)} &\leq L \abs{x_2-x_1} \label{eq: Lipschitz Stoch}
+\end{align}
+Since $F(x,t)=rx(1-x/M)-u$ is continuously differentiable in $x$, $F$ Lipschitz in $x$ then condition \ref{eq: Lipschitz Det} is satisfied. For bounded $\sigma$, condition \ref{eq: Lipschitz Stoch} is satisfied.
 
-and the Lipschitz condition,
-\begin{align}
-\abs{rx_2\left(1-\frac{x_2}{M}\right)-rx_1\left(1-\frac{x_1}{M}\right)}&\leq L \abs{x_2-x_1}\\
-\abs{\sigma\left(x_2-x_1\right)} &\leq L \abs{x_2-x_1}
-\end{align}
-For some independent constants $L$ and $K$.
+Since the above conditions are satisfied, we can guarantee existence and uniqueness of the solution for the equation \ref{eq: Constant Harvesting Stochastic}.
+
+
+
