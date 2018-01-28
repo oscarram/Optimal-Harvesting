@@ -1,5 +1,5 @@
 \begin{equation}
-\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-u
+\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-u \label{eq: ConstantHarvest}
 \end{equation}
 
 \begin{equation}
@@ -70,6 +70,19 @@ $\xi=\frac{x_0-\lambda}{x_0-\overline{\lambda}}\mathrm{e}^{-\gamma t}$
 \end{align*}
 
 \begin{align}
-	x(t)&=\frac{M}{2}+\left(\sqrt{\frac{M^2}{4}-\beta}\right)\frac{\left(x_0-M/2\right)\left(1+\mathrm e^{-\gamma t}\right)-\sqrt{M^2/4-\beta}\left(1-\mathrm{e}^{-\gamma t}\right)}{\left(x_0-M/2\right)\left(1-\mathrm e^{-\gamma t}\right)+\sqrt{M^2/4-\beta}\left(1+\mathrm{e}^{-\gamma t}\right)}
+	x(t)&=\frac{M}{2}+\left(\sqrt{\frac{M^2}{4}-\beta}\right)\frac{\left(x_0-M/2\right)\left(1+\mathrm e^{-\gamma t}\right)-\sqrt{M^2/4-\beta}\left(1-\mathrm{e}^{-\gamma t}\right)}{\left(x_0-M/2\right)\left(1-\mathrm e^{-\gamma t}\right)+\sqrt{M^2/4-\beta}\left(1+\mathrm{e}^{-\gamma t}\right)} \label{eq: Time Expression for Harvest}
 \end{align}
 
+If $u=\frac{rM}{4}$, the solution for the equation \ref{eq: ConstantHarvest}
+
+\begin{align}
+-\frac{M}{r}\int_{x_0}^{x}\frac{d\chi}{\left(\chi-\frac{M}{2}\right)^2}&=t\\
+\int_{x_0}^{x}\frac{d\chi}{\left(\chi-\frac{M}{2}\right)^2}&=-\frac{rt}{M}\\
+\frac{1}{x-\frac{M}{2}}&=\frac{1}{x_0-\frac{M}{2}}-\frac{rt}{M}\\
+\frac{1}{x-\frac{M}{2}}&=\frac{M-\left(x_0-\frac{M}{2}\right)rt}{M\left(x_0-\frac{M}{2}\right)} \\
+x&=\frac{M}{2}+\frac{M\left(x_0-\frac{M}{2}\right)}{M-\left(x_0-\frac{M}{2}\right)rt}
+\end{align}
+From the above analysis we have that,
+\begin{equation}
+0<u\leq\frac{rM}{4}
+\end{equation}

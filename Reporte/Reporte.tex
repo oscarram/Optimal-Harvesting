@@ -42,20 +42,24 @@
 \tableofcontents
 \chapter{Preliminary Concept} \label{chap:Preliminary}
 %\input{PreliminaryConcepts/Optimization.tex}
-\chapter{Problem Framework}\label{chap:Problem Framework}
-\input{ProblemFramework/ProblemFramework.tex}
+\chapter{Problem Description and Framework}\label{chap:Problem Framework}
+\graphicspath{{ProblemFramework/}}
+\input{ProblemFramework/report.tex}
 \chapter{Mathematical Models.} \label{chap: Deterministic Model}
 	\input{Model/report.tex}
 	\section{Exponential biological growth.}
+		\graphicspath{{Model/ExponentialGrowth/}}
 		\input{Model/ExponentialGrowth/report.tex}
 	\section{Logistic Equation.}
+		\graphicspath{{Model/LogisticEquation/}}
 		\input{Model/LogisticEquation/report.tex}
 	\section{Wiener Process and noise.} 
 		\graphicspath{{Model/WienerProcess/}}
 		\input{Model/WienerProcess/report.tex}
 \chapter{Fishing Strategies and Optimizing Population} \label{chap: Fishing Strategies}
 	\section{Open Loop Strategies.}
-	\input{FishingStrategies/ClosedLoop/report.tex}
+	\graphicspath{{FishingStrategies/OpenLoop/}{FishingStrategies/OpenLoop/ConstantHarvest/}{FishingStrategies/OpenLoop/TimeHarvesting/}{FishingStrategies/OpenLoop/OptimalControl/}}
+	\input{FishingStrategies/OpenLoop/report.tex}
 		\subsection{Constant Harvesting Analysis.}
 		\input{FishingStrategies/OpenLoop/ConstantHarvest/report.tex}
 		\subsection{Time Varying Harvesting.}
@@ -63,6 +67,7 @@
 		\subsection{Optimal Harvesting. Smooth Optimal Control Problem.}
 		\input{FishingStrategies/OpenLoop/OptimalControl/report.tex}
 	\section{Closed Loop Strategies.}
+		\graphicspath{{FishingStrategies/ClosedLoop/}}
 		\input{FishingStrategies/ClosedLoop/report.tex}
 		\subsection{Constant Proportional Harvesting.}
 		\input{FishingStrategies/ClosedLoop/ConstantProportional/report.tex}

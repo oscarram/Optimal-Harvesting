@@ -1,5 +1,9 @@
-For time varying Harvest, 
-
+Given a time horizon $T$ we want to extract the maximum amount of fishes, during this time.
+\begin{equation}
+H=\int_{0}^{T} u(t)\diff{t}
+\end{equation}
+Therefore,
 \begin{equation}
 	\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-u(t)
 \end{equation}
+From the above result we see that for $u(t)>\frac{rM}{4}$, we lead the population to extinction.

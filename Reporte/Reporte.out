@@ -1,19 +1,20 @@
 \BOOKMARK [0][-]{chapter.1}{Preliminary Concept}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Problem Framework}{}% 2
-\BOOKMARK [0][-]{chapter.3}{Mathematical Models.}{}% 3
-\BOOKMARK [1][-]{section.3.1}{Exponential biological growth.}{chapter.3}% 4
-\BOOKMARK [1][-]{section.3.2}{Logistic Equation.}{chapter.3}% 5
-\BOOKMARK [1][-]{section.3.3}{Wiener Process and noise.}{chapter.3}% 6
-\BOOKMARK [0][-]{chapter.4}{Fishing Strategies and Optimizing Population}{}% 7
-\BOOKMARK [1][-]{section.4.1}{Open Loop Strategies.}{chapter.4}% 8
-\BOOKMARK [2][-]{subsection.4.1.1}{Constant Harvesting Analysis.}{section.4.1}% 9
-\BOOKMARK [2][-]{subsection.4.1.2}{Time Varying Harvesting.}{section.4.1}% 10
-\BOOKMARK [2][-]{subsection.4.1.3}{Optimal Harvesting. Smooth Optimal Control Problem.}{section.4.1}% 11
-\BOOKMARK [1][-]{section.4.2}{Closed Loop Strategies.}{chapter.4}% 12
-\BOOKMARK [2][-]{subsection.4.2.1}{Constant Proportional Harvesting.}{section.4.2}% 13
-\BOOKMARK [2][-]{subsection.4.2.2}{Optimal Proportional Harvesting.}{section.4.2}% 14
-\BOOKMARK [0][-]{chapter.5}{Economical Profit}{}% 15
-\BOOKMARK [1][-]{section.5.1}{Linear Costs.}{chapter.5}% 16
-\BOOKMARK [1][-]{section.5.2}{Quadratic Costs.}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.3}{Stochastic Analysis.}{chapter.5}% 18
-\BOOKMARK [0][-]{chapter.6}{Further Research}{}% 19
+\BOOKMARK [0][-]{chapter.2}{Problem Description and Framework}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Fish harvesting models}{chapter.2}% 3
+\BOOKMARK [0][-]{chapter.3}{Mathematical Models.}{}% 4
+\BOOKMARK [1][-]{section.3.1}{Exponential biological growth.}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.2}{Logistic Equation.}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.3}{Wiener Process and noise.}{chapter.3}% 7
+\BOOKMARK [0][-]{chapter.4}{Fishing Strategies and Optimizing Population}{}% 8
+\BOOKMARK [1][-]{section.4.1}{Open Loop Strategies.}{chapter.4}% 9
+\BOOKMARK [2][-]{subsection.4.1.1}{Constant Harvesting Analysis.}{section.4.1}% 10
+\BOOKMARK [2][-]{subsection.4.1.2}{Time Varying Harvesting.}{section.4.1}% 11
+\BOOKMARK [2][-]{subsection.4.1.3}{Optimal Harvesting. Smooth Optimal Control Problem.}{section.4.1}% 12
+\BOOKMARK [1][-]{section.4.2}{Closed Loop Strategies.}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.2.1}{Constant Proportional Harvesting.}{section.4.2}% 14
+\BOOKMARK [2][-]{subsection.4.2.2}{Optimal Proportional Harvesting.}{section.4.2}% 15
+\BOOKMARK [0][-]{chapter.5}{Economical Profit}{}% 16
+\BOOKMARK [1][-]{section.5.1}{Linear Costs.}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.2}{Quadratic Costs.}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.3}{Stochastic Analysis.}{chapter.5}% 19
+\BOOKMARK [0][-]{chapter.6}{Further Research}{}% 20
