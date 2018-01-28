@@ -30,10 +30,10 @@ If $u>rM/4$ implies $\alpha>0$
 \end{align*}
 
 \begin{align}
-	x=\frac{M}{2}+\sqrt{\beta-\frac{M^2}{4}} \tan \left(\arctan\left(\frac{x_0-M/2}{\sqrt{\beta-M^2/4}}\right)-\frac{r\sqrt{\beta-M^2/4}}{M}t\right)
+	x(t)=\frac{M}{2}+\sqrt{\beta-\frac{M^2}{4}} \tan \left(\arctan\left(\frac{x_0-M/2}{\sqrt{\beta-M^2/4}}\right)-\frac{r\sqrt{\beta-M^2/4}}{M}t\right) \label{eq: ConstantHarvest OverExploit}
 \end{align}
 
-
+From equation \ref{eq: ConstantHarvest OverExploit} we observe that independently the initial condition $x_0$, for some $t^*$, $x(t^*)=0$, since the argument inside the $\tan$ is monotone decreasing in $t$. 
 If $u<rM/4$ implies $\alpha<0$,
 \begin{align*}
 	\int_{x_0}^{x}\frac{\diff{\chi}}{\left(\chi-\frac{M}{2}\right)^2-\alpha} &=-\frac{r}{M}t
@@ -80,9 +80,17 @@ If $u=\frac{rM}{4}$, the solution for the equation \ref{eq: ConstantHarvest}
 \int_{x_0}^{x}\frac{d\chi}{\left(\chi-\frac{M}{2}\right)^2}&=-\frac{rt}{M}\\
 \frac{1}{x-\frac{M}{2}}&=\frac{1}{x_0-\frac{M}{2}}-\frac{rt}{M}\\
 \frac{1}{x-\frac{M}{2}}&=\frac{M-\left(x_0-\frac{M}{2}\right)rt}{M\left(x_0-\frac{M}{2}\right)} \\
-x&=\frac{M}{2}+\frac{M\left(x_0-\frac{M}{2}\right)}{M-\left(x_0-\frac{M}{2}\right)rt}
+x&=\frac{M}{2}+\frac{M\left(x_0-\frac{M}{2}\right)}{M-\left(x_0-\frac{M}{2}\right)rt} 
 \end{align}
+
+The results above stated can be explained directly from the equation \ref{eq: ConstantHarvest}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{EqulibriumPoints.png}
+\end{figure}
 From the above analysis we have that,
 \begin{equation}
 0<u\leq\frac{rM}{4}
 \end{equation}
+

@@ -1,23 +1,30 @@
 using DifferentialEquations
-function lorenz(t,u,du)
- du[1] = 10.0*(u[2]-u[1])
- du[2] = u[1]*(28.0-u[3]) - u[2]
- du[3] = u[1]*u[2] - (8/3)*u[3]
+using Plots; pyplot();
+ 
+r=0.8
+M=780500
+
+f(u) = r*u.*(1-u/M)
+
+x = linspace(0,M,2000);
+y=f(x)
+p=plot(x, x->0,lw=4,ls=:dash,label="x-Axis")
+for i=0.0:0.05:0.6
+	y=f(x)-r*i*M
+	display(plot!(x,y,xaxis="x", yaxis="F(x,t)", lw=3, label="h=$(i)rM", xlims=(0,M),  ylims=(-M/100, M/4)))
 end
 
-u0 = [1.0;0.0;0.0]
-tspan = (0.0,100.0)
-prob = ODEProblem(lorenz,u0,tspan)
-sol = solve(prob)
 
-plot(sol,vars=(1,2,3))
+#C1(x)=M
+#C2(x)=0.0
 
-#f(t,u) = 1.01*u
-#u0=1/2
-#tspan = (0.0,1.0)
-#prob = ODEProblem(f,u0,tspan)
+#prob = ODEProblem(f,x0,tspan)
 #sol = solve(prob,Tsit5(),reltol=1e-8,abstol=1e-8)
-#using Plots
-#plot(sol,linewidth=5,title="Solution to the linear ODE with a thick line",
-#     xaxis="Time (t)",yaxis="u(t) (in μm)",label="My Thick Line!") # legend=false
-#plot!(sol.t, t->0.5*exp(1.01t),lw=3,ls=:dash,label="True Solution!")
+#plot(sol,linewidth=2, xaxis="Time (t)", yaxis="u(t) (in number of fishes)", label="0.5M")
+#for i=0.3:0.3:1.8
+#	prob = ODEProblem(f,2*i*x0,tspan)
+#	sol = solve(prob,Tsit5(),reltol=1e-8,abstol=1e-8)
+#	display(plot!(sol,linewidth=2, label="$(i)M"))
+#end
+#plot!(sol.t, t->C2(t),lw=3,ls=:dash,label="Unstable Equilibrium Point")
+#plot!(sol.t, t->C1(t),lw=3,ls=:dash,label="Stable Equilibrium Point")
