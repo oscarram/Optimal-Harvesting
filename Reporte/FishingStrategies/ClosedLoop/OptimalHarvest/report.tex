@@ -1,0 +1,39 @@
+Since our harvesting control is proportional to our population, given a finite time horizon $T$, the amount of fishes we have extracted from our pool is given by,
+\begin{align}
+	J(x;p,T)&=\int_{0}^{T} p x \diff{t} \nonumber \\
+			&=\int_{0}^{T} \frac{M p\left(r-p\right)x_0}{rx_0+\left(M\left(r-p\right)-rx_0\right)\euler^{-(r-p) t}} \diff{t} \nonumber
+\end{align}
+The equation \ref{eq: Proportional Population} determines the population of fishes at time $t$. Consider the transformations $y=x/M$, $\tau=rt$, $\overline{p}=rp$. Therefore the equation \ref{eq: PropHarvest}, is transformed into:
+\begin{equation}
+\dev{y}{\tau}=(1-\overline{p})y\left(1-\frac{y}{1-\overline{p}}\right)
+\end{equation}
+with initial condition $y(0)=y_0=x_0/M$. And solution,
+
+\begin{equation}
+	y(\tau)=\frac{(1-\overline p)y_0}{y_0+\left(1-\overline p-y_0\right)\euler^{(\overline p-1)\tau}}
+\end{equation}
+Then our function in the time horizon $\overline{T}=rT$
+\begin{align}
+J\left(y;\overline{p},\overline{T}\right)&=\frac{1}{rM}\int_0^{\overline{T}}\overline{p}y(\tau)\diff{\tau}	\\
+&=\frac{\overline{p}}{rM}\left(\ln\left(1-\overline{p}+y_0\left(\euler^{(1-\overline{p})\overline{T}}-1\right)\right)-\ln\left(1-\overline{p}\right)\right)
+\end{align}
+
+We would like to know the constant $\overline{p}^*$ that for a given time horizon $\overline{T}$ maximizes $J$. Therefore $\overline{p}$ should satisfy the necessary condition,
+\begin{equation}
+\left.\pdev{J\left(y;\overline{p},\overline{T}\right)}{p}\right|_{\overline{p}=\overline{p}^*}=0
+\end{equation}
+
+Therefore, for given $y_0$ we need to solve for $\overline{p}^*$ the following equation,
+\begin{equation}
+\overline{p}^* \left(\frac{1+Ty_0\euler^{\left(1-\overline{p}^*\right)\overline{T}}}{\overline{p}^*+y_0-1 -y_0\euler^{(1-\overline{p}^*)\overline{T}}}+\frac{1}{1-\overline{p}^*}\right)+\ln
+\left(1-\overline{p}^*-y_0 +y_0\euler^{(1-\overline{p}^*)\overline{T}}\right)-\ln\left(1-\overline{p}^*\right)=0
+\end{equation}
+
+This expression has no closed form solution, but we can estimate it numerically, if we know $y_0$ and $T$. For example for $y_0=0.75$ and $\overline{T}=20$, we have
+$\overline{p}^* \approx 0.541881$,
+
+
+	
+
+
+

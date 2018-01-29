@@ -4,9 +4,9 @@ using Plots; pyplot();
 r=0.8
 M=780500
 x0=M/2
-p=0.3
+pr=r/2
 
-f(u,p,t) = r*u*(1-u/M)
+f(u,p,t) = r*u*(1-u/M)-pr*u
 dt = 1//(2^(4))
 tspan = (0.0,10.0)
 
@@ -23,4 +23,6 @@ for i=0.15:0.15:1.8
 	display(plot!(sol,linewidth=2, label="$(i)M"))
 end
 plot!(sol.t, t->C2(t),lw=3,ls=:dash,label="Unstable Equilibrium Point")
+plot!(sol.t, t->C1(t)/2,lw=3,ls=:dash,label="Stable Equilibrium Point")
 plot!(sol.t, t->C1(t),lw=3,ls=:dash,label="Stable Equilibrium Point")
+

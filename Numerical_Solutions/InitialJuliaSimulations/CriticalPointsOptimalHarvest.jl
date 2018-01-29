@@ -1,17 +1,13 @@
 using DifferentialEquations
 using Plots; pyplot();
  
-r=0.8
-M=780500
-
-f(u) = r*u.*(1-u/M)
-
-x = linspace(0,M,2000);
+f(u) = u.*(1-u)
+x = linspace(0,1,2000);
 y=f(x)
 p=plot(x, x->0,lw=4,ls=:dash,label="x-Axis")
 for i=0.0:0.05:0.6
-	y=f(x)-r*i*M
-	display(plot!(x,y,xaxis="x", yaxis="F(x,t)", lw=3, label="h=$(i)rM", xlims=(0,M),  ylims=(-M/100, M/4)))
+	y=f(x)-i
+	display(plot!(x,y,xaxis="x", yaxis="dx/dt", lw=3, label="h=$(i)rM", xlims=(0,1),  ylims=(-1/5, 1/4)))
 end
 
 
