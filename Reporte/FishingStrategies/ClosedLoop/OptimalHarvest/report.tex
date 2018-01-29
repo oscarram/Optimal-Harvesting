@@ -26,14 +26,30 @@ We would like to know the constant $\overline{p}^*$ that for a given time horizo
 Therefore, for given $y_0$ we need to solve for $\overline{p}^*$ the following equation,
 \begin{equation}
 \overline{p}^* \left(\frac{1+Ty_0\euler^{\left(1-\overline{p}^*\right)\overline{T}}}{\overline{p}^*+y_0-1 -y_0\euler^{(1-\overline{p}^*)\overline{T}}}+\frac{1}{1-\overline{p}^*}\right)+\ln
-\left(1-\overline{p}^*-y_0 +y_0\euler^{(1-\overline{p}^*)\overline{T}}\right)-\ln\left(1-\overline{p}^*\right)=0
+\left(1-\overline{p}^*-y_0 +y_0\euler^{(1-\overline{p}^*)\overline{T}}\right)-\ln\left(1-\overline{p}^*\right)=0 \label{eq: Nonlinear equation}
 \end{equation}
 
 This expression has no closed form solution, but we can estimate it numerically, if we know $y_0$ and $T$. For example for $y_0=0.75$ and $\overline{T}=20$, we have
-$\overline{p}^* \approx 0.541881$,
+$\overline{p}^* \approx 0.541881$.
 
 
-	
+We can know the value of $\overline{p}^*$, for $T\rightarrow\infty$, Consider,  
+\begin{equation}	
+\lim\limits_{T\rightarrow \infty} \ln(a+b\euler^{cT})\approxeq cT
+\end{equation}
 
+For any $a,b \in \mathbb{R}$. And
+\begin{equation}
+	\lim\limits_{T-\infty}\frac{a+bT\euler^{cT}}{r+d\euler^{cT}} \approxeq \frac{b}{d}T
+\end{equation}
+For any constants $a,b,c,d,r \in \mathbb{R}$. 
 
+Therefore, for big enough $T$, the contribution for fixed $\overline{p}^*$, we can write equation \ref{eq: Nonlinear equation} in small $o$ notation as follows,
+\begin{equation}
+\lim\limits_{T\rightarrow \infty}\left.\pdev{J}{p}\right|_{p=\overline{p}^*} =(1-\overline{p}^*)\overline{T}-\overline{p}^*\overline{T}+o(T)+o(T^2)+\dots=0 
+\end{equation}
 
+Hence, when $T\rightarrow \infty$
+\begin{equation}
+	(1-2\overline{p}^*)\overline{T}=0\implies \overline{p}^*=\frac{1}{2}
+\end{equation}

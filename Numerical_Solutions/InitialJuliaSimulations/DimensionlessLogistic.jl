@@ -2,7 +2,7 @@ using DifferentialEquations
 using Plots; pyplot();
  
 x0=1/2
-pr=1/6
+pr=1/4
 
 f(u,p,t) = u*(1-u)-pr
 dt = 1//(2^(4))
@@ -22,5 +22,5 @@ for i=0.1:0.05:1.2
 end
 plot!(sol.t, t->1,lw=3,ls=:dash,label="Maximum Capacity")
 plot!(sol.t, t->C1(pr),lw=3,ls=:dash,label="Stable Equilibrium Point")
-plot!(sol.t, t->C2(pr),lw=3,ls=:dash,label="Unstable Equilibrium Point")
+#plot!(sol.t, t->C2(pr),lw=3,ls=:dash,label="Unstable Equilibrium Point")
 

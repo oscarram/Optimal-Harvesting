@@ -84,7 +84,7 @@ When $u=0$, we have the regular logistic equation with critical points $x_{c_1}=
 x_{c_{2,1}}=\frac{M}{2}\pm \sqrt{\frac{M^2}{4}-u\frac{M}{r}}
 \end{equation}
 
-We observe that the critical points $x_c$, such that $\dev{x_c}{t}=F(x_c, t)-u=0$ are getting closer to each other, as $u$ is increasing; when $u=\frac{rM}{4}$ we only have one stable critical point. For $u> \frac{rM}{4}$, the population $x(t)$ has no real critical points and the derivative $\dev{x}{t}$ is always negative, implying, that we will lead always the population to extinction, extracting constantly at a rate greater than $\frac{rM}{4}$.
+We observe that the critical points $x_c$, such that $\dev{x_c}{t}=F(x_c, t)-u=0$ are getting closer to each other, as $u$ is increasing; when $u=\frac{rM}{4}$ we only have one critical unstable point. That behaves as an attractor when $x_0\geq\frac{M}{2}$. But when $x_0<\frac{M}{2}$ the population strictly decreases. For $u> \frac{rM}{4}$, the population $x(t)$ has no real critical points and the derivative $\dev{x}{t}$ is always negative, implying, that we will lead always the population to extinction, extracting constantly at a rate greater than $\frac{rM}{4}$.
 
 \begin{figure}[H]
 	\centering
@@ -95,11 +95,20 @@ We observe that the critical points $x_c$, such that $\dev{x_c}{t}=F(x_c, t)-u=0
 \begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]{SustainableConstant.png}
-		\caption{Behavior for equation.}
+		\caption{Constant harvest rate $u<\frac{rM}{4}$.}
 		\label{fig: SustainableConstantHarvest}
 \end{figure}
-From the above analysis we have that,
-\begin{equation}
-0<u\leq\frac{rM}{4}
-\end{equation}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{OverExploitConstant.png}
+	\caption{Constant harvest rate $u>\frac{rM}{4}$.}
+	\label{fig: OverExploitConstantHarvest}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{CriticalExploitConstant.png}
+	\caption{Constant harvest rate $u=\frac{rM}{4}$.}
+	\label{fig: CriticalExploitConstantHarvest}
+\end{figure}
 
