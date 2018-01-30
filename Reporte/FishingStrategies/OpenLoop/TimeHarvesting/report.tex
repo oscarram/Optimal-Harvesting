@@ -1,14 +1,18 @@
-Given a time horizon $T$ we want to extract the maximum amount of fishes, during this time.
+Given a time horizon $T$, the amount of fish extracted for the end of this time, is given by
 \begin{equation}
-H=\int_{0}^{T} u(t)\diff{t}
+	J(u;T)=\int_{0}^{T} u(t)\diff{t}
 \end{equation}
-Therefore,
+Where $u(t)$ is the harvesting rate at time $t$, introduced to the population as follows,
 \begin{equation}
-	\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-u(t)
+	\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-u(t) \label{eq: HarvestOpenLoop}
 \end{equation}
-From the above result we see that for $u(t)>\frac{rM}{4}$, we lead the population to extinction.
+We would like to know among all the possible time functions $u\in \mathbb{R}^{[0,T]}$, the functional $J$ is maximized. 
 
-From the above analysis we have that,
+Stating in this way, is not well posed. Since we see that the functional is linear in $u$, implying the bigger gets $u$, the bigger gets $J$. But this approach has the disadvantage we showed in the previous discussion, that the bigger $u$ the fastest our population can lead to extinction and therefore, we will not be able to continue harvesting the pool. 
+
+From the previous results we see that for $u(t)>\frac{rM}{4}$, we lead the population to extinction. Therefore, we restrict our harvesting rate $u$ to,
 \begin{equation}
-0<u\leq\frac{rM}{4}
+0\leq u(t)\leq\frac{rM}{4}.
 \end{equation}
+
+Please note that,

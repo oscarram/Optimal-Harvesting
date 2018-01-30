@@ -49,7 +49,7 @@ Given a time horizon $\bar{T}=24$ time units (usually given in months), above wi
 	\end{subfigure}
 \end{figure}
 
-The first graph show the total population of fishes during the time, and the second one represent the amount of fishes that are harvest from the model. As we can see the population goes to an stability point that is equal to $\left(1-\frac{p}{r}\right)M$ and in the same way the amount of fishes that we harvest goes to $\left(1-\frac{p}{r}\right)M\bar{p}^*$. The following graphs shows the variation $\bar{p}^*\pm0.1$  an the effect in the amount of harvested fish, please note how the stable fixed points lie below $M/2$:
+The first graph show the total population of fishes during the time, and the second one represent the amount of fishes that are harvest from the model. As we can see the population goes to an stability point that is equal to $\left(1-\frac{p}{r}\right)M$ and in the same way the amount of fishes that we harvest goes to $\bar{p}^*\left(1-\bar{p}\right)M$. The following graphs shows the variation $\bar{p}^*\pm0.1$  an the effect in the amount of harvested fish, please note how the stable fixed points lie below $M/2$:
 \begin{figure}[H]
 	\centering 
 	\begin{subfigure}[b]{0.45\textwidth}
@@ -119,4 +119,4 @@ Hence, when $T\rightarrow \infty$
 \end{equation}
 
 This result was expected, since 
-$\lim\limits_{T\rightarrow\infty} x(t) = \bar{p}(1-\bar{p})M$ for any initial condition $x_0$; it is a concave function of $\bar{p}^*$. Therefore for long time horizons $T$, the maximum is reached at the point $\bar{p}^*=\frac{1}{2}$.
+$\lim\limits_{T\rightarrow\infty} x(t) = r\bar{p}(1-\bar{p})M$, for any initial condition $x_0$. Therefore, for long time horizons $T\rightarrow \infty$, the functional $J(x; T,\bar{p},r,M)\approx r\bar{p}(1-\bar{p})MT$, becomes a concave function of $\bar{p}^*$, whose maximum is reached at the point $\bar{p}^*=\frac{1}{2}$.
