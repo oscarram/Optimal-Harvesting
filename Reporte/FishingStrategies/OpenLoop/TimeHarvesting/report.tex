@@ -12,7 +12,43 @@ Stating in this way, is not well posed. Since we see that the functional is line
 
 From the previous results we see that for $u(t)>\frac{rM}{4}$, we lead the population to extinction. Therefore, we restrict our harvesting rate $u$ to,
 \begin{equation}
-0\leq u(t)\leq\frac{rM}{4}.
+0\leq u(t)\leq\frac{rM}{4}. \label{eq: OpenLoopConstrain}
 \end{equation}
 
-Please note that,
+Please note that, the equation \ref{eq: HarvestOpenLoop} can be rewritten in this way,
+\begin{equation}
+	u(t)=rx\left(1-\frac{x}{M}\right)-\dev{x}{t} \label{eq: OpenLoopControl}
+\end{equation}
+and the functional $J$ now, as a map of $x$ and $\dot{x}=\dev{x}{t}$ instead of $u$.
+\begin{equation}
+	J(x,\dot{x};T,r,M)=\int_{0}^{T} \left(rx\left(1-\frac{x}{M}\right)-\dot{x}\right) \diff{t} \label{eq: Functional for Population.}
+\end{equation}
+We can restate the problem as follows, we would like to find the population $x(t)$ among all the possible populations\footnote{We see from equation \ref{eq: Functional for Population.}, that the space where we are trying to find the optimum is $L^2([0,T])\cap \mathrm{BV}([0,T])$, where $\mathrm{BV}(\Omega)$ is the space of bounded variations over some open set $\Omega$. }, such that $J$ is maximized. Once we know the population, we can construct a control $u(t)$ such that equation \ref{eq: HarvestOpenLoop} is satisfied. Then, we ask the condition for $x \in C^1([0,T])$.
+
+Therefore, the pair $x^*$, $\dot{x}^*$ that maximizes the functional $J=\int_0^T L(x, \dot{x}, t)\diff{t}$, should satisfy the Euler-Lagrange equations,
+
+\begin{equation}
+	\dev{}{t}\left(\pdev{L}{\dot{x}^*}\right)-\pdev{L}{x^*}=0
+\end{equation}
+
+where $L:[0,T]\times C^1([0,T]) \mapsto \mathbb{R}$. In our case $L(x,\dot{x}, t)=u(t)$, as stated in equation \ref{eq: OpenLoopControl}. Therefore,
+
+\begin{align}
+	\dev{}{t}\left(\pdev{u}{\dot{x}^*}\right)-\pdev{u}{x^*}&=0 \nonumber\\ \dev{}{t}\left(1\right)-rx+2r\frac{x}{M}&=0 \nonumber\\
+	\implies x\left(x- \frac{M}{2}\right)&=0
+\end{align}
+
+Hence $J$ has two stationary points, $x^*(t)=0$, and $x^*(t)=\frac{M}{2}$.
+
+From equation \ref{eq: HarvestOpenLoop}, when $x^*(t)=\frac{M}{2}$ we need to construct the control $u(t)$, as follows,
+\begin{equation}
+	u(t)=r\frac{M}{2}\left(1-\frac{x}{M}\right)=\frac{rM}{4}
+\end{equation}
+
+We observe that, when $x(t)=x^*(t)$, the control is the maximum of the constrain \ref{eq: OpenLoopConstrain}, we got from the analysis of the fixed points of the dynamic.
+
+
+Since we obtained a result for the optimum for $J$, realistically, this is a bad harvesting strategy, since we are considering the controls and the populations ideal.
+
+In order to have a better understanding of the reality, we add the effect of noise to the dynamic.
+

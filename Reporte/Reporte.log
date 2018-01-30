@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  30 JAN 2018 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  30 JAN 2018 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,12 +1347,61 @@ nts.png used on input line 116.
 (pdftex.def)             Requested size: 398.3401pt x 205.39667pt.
 )
 (./FishingStrategies/OpenLoop/TimeHarvesting/report.tex [12 <./FishingStrategie
-s/OpenLoop/ConstantHarvest/CriticalPoints.png>])
-(./FishingStrategies/OpenLoop/OptimalControl/report.tex)
+s/OpenLoop/ConstantHarvest/CriticalPoints.png>]
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 9.21606pt on input line 26.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 26.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.56804pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 9.02402pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 6.298pt on input line 26.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 5.45201pt on input line 26.
+)
+(./FishingStrategies/OpenLoop/OptimalControl/report.tex [13])
 (./FishingStrategies/ClosedLoop/report.tex)
-(./FishingStrategies/ClosedLoop/ConstantProportional/report.tex [13])
+(./FishingStrategies/ClosedLoop/ConstantProportional/report.tex)
 (./FishingStrategies/ClosedLoop/OptimalHarvest/report.tex [14]
-<FishingStrategies/ClosedLoop/ConstantProportional/optpop.png, id=276, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/optpop.png, id=291, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/optpop.png Graphic file
  (type png)
@@ -1410,7 +1459,7 @@ LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 (Font)              scaled to size 5.92201pt on input line 43.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/optpro.png, id=277, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/optpro.png, id=292, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/optpro.png Graphic file
  (type png)
@@ -1420,7 +1469,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/optp
 ro.png used on input line 47.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png, id=278, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png, id=293, 361.35pt
  x 210.7875pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png Graphic file
  (type png)
@@ -1430,7 +1479,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/lshp
 op.png used on input line 56.
 (pdftex.def)             Requested size: 201.65616pt x 117.63171pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png, id=279, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png, id=294, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png Graphic file
  (type png)
@@ -1440,7 +1489,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/lshp
 ro.png used on input line 60.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png, id=280, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png, id=295, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png Graphic file
  (type png)
@@ -1450,7 +1499,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/mrhp
 op.png used on input line 64.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png, id=281, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png, id=296, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png Graphic file
  (type png)
@@ -1459,9 +1508,6 @@ File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png Graphic file
 Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/mrhp
 ro.png used on input line 68.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [15 <./FishingStrategies/ClosedLoop/ConstantProportional/optpop.png (PNG copy)
 > <./FishingStrategies/ClosedLoop/ConstantProportional/optpro.png (PNG copy)>]
 
@@ -1505,16 +1551,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 16017 strings out of 493029
- 253979 string characters out of 6136234
- 428388 words of memory out of 5000000
- 19024 multiletter control sequences out of 15000+600000
- 48816 words of font info for 101 fonts, out of 8000000 for 9000
+ 16064 strings out of 493029
+ 254685 string characters out of 6136234
+ 428556 words of memory out of 5000000
+ 19054 multiletter control sequences out of 15000+600000
+ 65493 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,18n,106p,618b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texmf/fonts/enc/dvip
-s/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/
+ 65i,18n,106p,686b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/
+enc/dvips/ly1/texnansi.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/
 charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/
 bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/
 md-chr7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch
@@ -1522,13 +1568,15 @@ md-chr7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch
 h/md-chr7v.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdb
 ch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/md
 bch/md-chri7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/
-mdbch/md-chrma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Reporte.pdf (23 pages, 1450623 bytes).
+mdbch/md-chrma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Reporte.pdf (23 pages, 1491855 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 358 compressed objects within 4 object streams
- 128 named destinations out of 1000 (max. 500000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 134 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

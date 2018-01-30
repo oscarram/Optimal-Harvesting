@@ -4,9 +4,9 @@ using Plots; plotly(); # Using the Plotly backend
 r=0.8
 M=780500
 x0=M/2
-ss=500;
-f(t,u) = r*u*(1-u/M)-r*M/4
-g(t,u) = ss*u
+ss=0.1;
+f(u,p,t) = r*u*(1-u/M)-r*M/4
+g(u,p,t) = ss*u
 dt = 1//(2^(4))
 tspan = (0.0,10.0)
 prob = SDEProblem(f,g,x0,(0.0,10.0))
