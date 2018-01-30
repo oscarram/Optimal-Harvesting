@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  30 JAN 2018 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  30 JAN 2018 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,56 +1424,56 @@ c file (type png)
 
 <use FishingStrategies/OpenLoop/TimeHarvesting/NoisePresenceDynamic.png>
 Package pdftex.def Info: FishingStrategies/OpenLoop/TimeHarvesting/NoisePresenc
-eDynamic.png used on input line 99.
+eDynamic.png used on input line 103.
 (pdftex.def)             Requested size: 141.90909pt x 94.60368pt.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 100.
+(Font)              scaled to size 9.98405pt on input line 104.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 100.
+(Font)              scaled to size 7.00804pt on input line 104.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 100.
+(Font)              scaled to size 6.04803pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.77602pt on input line 100.
+(Font)              scaled to size 9.77602pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.86201pt on input line 100.
+(Font)              scaled to size 6.86201pt on input line 104.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.92201pt on input line 100.
+(Font)              scaled to size 5.92201pt on input line 104.
 
 <FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant2.png, id=293, 6
 02.25pt x 401.5pt>
@@ -1482,7 +1482,7 @@ ic file (type png)
 
 <use FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant2.png>
 Package pdftex.def Info: FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoise
-Tolerant2.png used on input line 103.
+Tolerant2.png used on input line 107.
 (pdftex.def)             Requested size: 141.90909pt x 94.60368pt.
 
 <FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant.png, id=294, 60
@@ -1492,7 +1492,7 @@ c file (type png)
 
 <use FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant.png>
 Package pdftex.def Info: FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoise
-Tolerant.png used on input line 107.
+Tolerant.png used on input line 111.
 (pdftex.def)             Requested size: 141.90909pt x 94.60368pt.
 )
 (./FishingStrategies/OpenLoop/OptimalControl/report.tex)
@@ -1626,7 +1626,7 @@ mdbch/md-chrma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
 ts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Reporte.pdf (25 pages, 1612942 bytes).
+Output written on Reporte.pdf (25 pages, 1613068 bytes).
 PDF statistics:
  481 PDF objects out of 1000 (max. 8388607)
  402 compressed objects within 5 object streams
