@@ -1,0 +1,137 @@
+In this section we will use calculus of variations theory to maximize the long-term profit. The general mark is to search for the functions that maximize or minimize given a functional.
+
+For solving the former, the $J(x)$ has to be maximized with respect to $x$, as follows:
+\begin{equation}
+J(x) = \int_{0}^{T} g(t,x,\dot{x}) dt
+\end{equation}
+\label{pr1}
+
+\begin{equation}
+\left.
+x(0) = x_{0} \atop
+x(T)= x_{T} 
+\right\}
+\end{equation}
+\label{pr2}
+
+Where $g()$ is a differentiable function and  $\dot{x}$ denote the derivative of the $x$ respect to the time. $x(t)$ is the $x$ in specific time whereas $x$ (without $t$) shows the entire $x$ path. Any $x$ that satisfy the boundary conditions in equation \ref{pr2} is admissible.
+
+Analysis of $x$ in infinite small variations in admissible range (\ref{pr2}) to optimize the \ref{pr1} function guides to the Euler-Lagrange equation:
+
+\begin{equation}
+\frac{\partial g}{\partial x} =\frac{d}{dt} \frac{\partial g}{\partial \dot{x}}
+\end{equation}
+\label{booo}
+
+\subsection{Costs}
+
+As the goal is maximizing the profit, we are going to use the following functional used by Clark and Hannensson in their studies about this topic:
+
+\begin{equation}
+J(x) = \int_{0}^{\infty} e^{-pt}[p-c(x)]h dt
+\end{equation}
+\label{pr3}
+
+note that:
+
+\begin{equation}
+\dot{x}=\frac{dx}{dt}=f(x)-h \atop
+x(0) = x_{0}
+\end{equation}
+\label{bb}
+
+where $x(t)$ is population, $h(t)$ is the harvest rate, $f(x)$ is biological growth, $c(x)$ is the unit cost of farming and $p$ is the unit price of harvested aquaculture. we assumed $p$ as a constant.\
+
+Maximized function can show as:
+
+\begin{equation}
+J* = max_{h}\int_{0}^{\infty} e^{-\rho t}[p-c(x)]h dt
+\end{equation}
+\label{pr3}
+
+Because the value of money unit decrease (with the rate $\rho$) by the time, if we have $n$ time of money value decrease in time unit, then $t$ units of time amount to $nt$ discount periods. So we can obtain the present value of money unit by:
+
+\begin{equation}
+\lim_{n \to \infty} (1-\frac{\rho}{n})^{nt} = e^{-\rho t}
+\end{equation}
+
+Equation \ref{booo} and \ref{pr3} gives:
+
+\begin{equation}
+J* = max_{x}\int_{0}^{\infty} e^{-\rho t}[p-c(x)][f(x)-\dot{x}] dt
+\end{equation}
+
+Now, using Euler-Lagrange condition, we can write:
+
+\begin{equation}
+f^\prime (x)-\frac{c^\prime(x)f(x)}{p-c(x)}=\rho
+\end{equation}
+
+note that primes are differentiations with respect to $x$. This equation also can be written as:
+
+\begin{equation}
+\frac{\partial}{\partial x}[(p-c(x))f(x)]=\rho[p-c(x)]
+\end{equation}
+\label{eer}
+
+If we define $x*$ as the optimal population level that maximize the profit, it can be obtain by solving followed equation:
+
+\begin{equation}
+\frac{\partial}{\partial x*}[(p-c(x*))f(x*)]=\rho[p-c(x*)]
+\end{equation}
+
+This obtained using equation \ref{eer}.
+
+By applying $x*$ in \ref{bb}, $h*$ can obtain.
+It is possible that  the last equation might have more than one root and $x*$ not be unique.
+
+\subsection{Logistic growth}
+
+Assume that:
+$f(x)=rx(1-x/k)$
+$h=qEx$
+$c(x)=c/(qx)$
+in which $f(x)$ is growth, $h$ is harvest rate and $c(x)$ is cost function with constant cost per unit (c).
+Then, the equation \ref{pr3} can be written as:
+
+\begin{equation}
+J* = max_{h}\int_{0}^{\infty} e^{-\rho t}[p-\frac{c}{qx}]h dt= max_{E}\int_{0}^{\infty} e^{-\rho t}(pqx-c)E dt
+\end{equation}
+\label{22}
+in which following must be satisfied:
+
+\begin{equation}
+\dot{x}=rx(1-\frac{x}{K})-qEx \atop
+x(0) = x_{0}
+\end{equation}
+\label{23}
+
+So, utilizing equation \ref{23}, effort (E) can written as
+
+\begin{equation}
+E=\frac{rx(1-\frac{x}{K})-\dot{x}}{qx}
+\end{equation}
+
+Using \label{22} and \label{23}, maximized objective can be written as:
+
+\begin{equation}
+J* = max_{x}\int_{0}^{\infty} e^{-\rho t}(p-\frac{c}{qx})[rx(1-\frac{x}{K})-\dot{x}] dt
+\end{equation}
+
+By applying Euler-Lagrange condition, following equation will be obtain to calculate optimal population $x*$
+
+\begin{equation}
+x*=\frac{K}{4}\Bigg[(1+\frac{c}{pKq}-\frac{\rho}{r})+\sqrt{(1+\frac{c}{pKq}-\frac{p}{r})^2+\frac{8cp}{pKqr}}\Bigg]
+\end{equation}
+
+So when the population yields to that value the rate of harvest is equal to the biological growth rate and the population is established at that optimal point.
+
+As now we know the optimal population $x*$ we can develop a harvesting policy to drive the population to that value as fast as possible and keep it there. We assume that the effort is constrained as $0\leq E \leq E_{max}$ because there is a top in the effort that we can apply in the harvest. We define this policy as follows:
+
+\begin{equation}
+E*(t) = \begin{cases} E_{max}, & \mbox{x(t) $>$ x*,} \\ \frac{rx*(1-\frac{x*}{K})}{qx*}, & \mbox{x(t)=x*,} \\ 0, & \mbox{x(t) $<$ x*.} \end{cases}
+\end{equation}
+
+With that policy we help the system to be always at the optimal point by making the maximum harvesting effort when the population is to big and letting the population growth free when it's below the optimal point.
+
+With that 

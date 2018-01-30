@@ -1,6 +1,6 @@
 %Exponential Growth
 
-Assuming the natural fish mortality to be a constant $M$, we get the growth dynamics as,
+A first approach is to introduce a natural mortality factor $m$, which contributes to decreasing the fish population. To prevent the population from decaying to zero, we also introduce a constriction for the time horizon $T$: 
 \begin{equation}
 \begin{array}{lll}
 \dev{x}{t}&=&-mx\\
@@ -12,11 +12,13 @@ If a variable mortality due to fishing $\Phi(t)$, is also considered then the gr
 
 
 \begin{equation}
-	\begin{array}{lll}
-		\dev{x}{t}&=&-(m+\Phi(t))x\\
-		x(T)&=&x_T\\
-	\end{array}
+\begin{array}{lll}
+\dev{x}{t}&=&-(m+\Phi(t))x\\
+x(T)&=&x_T\\
+\end{array}
 \end{equation}
 
+
+We must take into account that the variable mortality factor adjusts well to an open sea population simulation, but not to a controlled population (fish farm).
 
 

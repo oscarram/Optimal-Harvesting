@@ -1,4 +1,11 @@
-Logistic equation.
-\begin{equation}
-	F(x,t)=rx\left(1-\frac{x}{M}\right)
+A better approach consists in the following: a biological population with plenty of food, space to grow, and no threat from predators, tends to grow at a rate that is proportional to the population- this means that per unit time a certain percentage of the individuals produce new individuals continuously:
+\begin{equation}\label{eq: prevloggrowth}
+F(x,t)=rx
 \end{equation}
+where $x$ is the population in time $t$, and the proportionality constant $r$ is called the growth rate. More realistically, populations are constrained by limitations on resources, so a maximum population parameter $M$ can be introduced ("carrying capacity" of the system). The logistic growth model includes this parameter, and has the form:
+
+\begin{equation}\label{eq: loggrowth}
+F(x,t)=rx\left(1-\frac{x}{M}\right)
+\end{equation}
+
+Equation \ref{eq: loggrowth} satisfies some basic aspects: on one hand, when the population is small relative to $M$, its behavior is similar to the followed by equation \ref{eq: prevloggrowth}, and the constraint does not affect too much, but as $x$ becomes significant compared to $M$, both curves diverge and the growth rate $\dot{x}$ drops to zero. On the other hand, the growth rate is only zero when $x=M$, which is what happens in reality.

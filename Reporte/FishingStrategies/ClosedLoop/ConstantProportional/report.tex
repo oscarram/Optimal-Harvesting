@@ -1,18 +1,23 @@
+Consider the closed loop strategy, we propose harvest ina a proportional way to the population, for this case instead of a constant, we take a constant multiplying out population in this way:
 \begin{equation}
-	\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-px \label{eq: PropHarvest}
+\dev{x}{t}=rx\left(1-\frac{x}{M}\right)-px \label{eq: PropHarvest}
 \end{equation}
-
+Taking out $rx$ as common factor we obtain:
 \begin{align}
 \dev{x}{t}&=rx\left(1-\frac{p}{r}-\frac{x}{M}\right) \\
 \dev{x}{t}&=r\left(1-\frac{p}{r}\right)\left(1-\frac{x}{M\left(1-\frac{p}{r}\right)}\right)x
 \end{align}
-
-$\gamma=r\left(1-\frac{p}{r}\right)$, $K=M\left(1-\frac{p}{r}\right)$. With $\frac{p}{r}<1$
-
+Making this change of variables,
+$\gamma=r\left(1-\frac{p}{r}\right)$, $K=M\left(1-\frac{p}{r}\right)$. With $\frac{p}{r}<1$\\
+the equation is reduce to:
 \begin{align}
-	\dev{x}{t}&=\gamma x\left(1-\frac{x}{K}\right)\\
-	x&=\frac{Kx_0}{x_0+\left(K-x_0\right)\mathrm{e}^{-\gamma t}}
+\dev{x}{t}&=\gamma x\left(1-\frac{x}{K}\right)
 \end{align}
+Calculating the integral of this we obtain:
 \begin{align}
-	x(t)=\frac{M\left(1-\frac{p}{r}\right)x_0}{x_0+\left(M-\frac{Mp}{r}-x_0\right)\mathrm{e}^{-\gamma t}} \label{eq: Proportional Population}
+x&=\frac{Kx_0}{x_0+\left(K-x_0\right)\mathrm{e}^{-\gamma t}}
+\end{align}
+so our population in function of $t$ is:
+\begin{align}
+x(t)=\frac{M\left(1-\frac{p}{r}\right)x_0}{x_0+\left(M-\frac{Mp}{r}-x_0\right)\mathrm{e}^{-\gamma t}}. \label{eq: Proportional Population}
 \end{align}

@@ -34,7 +34,6 @@
 \newlabel{fig1.3}{{1}{4}{Problem Description and Framework}{figure.caption.9}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Aquaculture production in 2010 around the world\relax }}{4}{figure.caption.10}}
 \newlabel{fig1.4}{{1}{4}{Problem Description and Framework}{figure.caption.10}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Fish harvesting models}{5}{section.1.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Mathematical Models.}{6}{chapter.2}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -42,13 +41,15 @@
 \newlabel{chap: Deterministic Model}{{2}{6}{Mathematical Models}{chapter.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Exponential biological growth.}{6}{section.2.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Logistic Equation.}{6}{section.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Wiener Process and noise.}{6}{section.2.3}}
-\newlabel{eq: Constant Harvesting Stochastic}{{2.5}{6}{Wiener Process and noise}{equation.2.3.5}{}}
-\newlabel{eq: LinearGrowth Det}{{2.6}{6}{Wiener Process and noise}{equation.2.3.6}{}}
-\newlabel{eq: LinearGrowth Stoch}{{2.7}{6}{Wiener Process and noise}{equation.2.3.7}{}}
-\newlabel{eq: Lipschitz Det}{{2.8}{6}{Wiener Process and noise}{equation.2.3.8}{}}
-\newlabel{eq: Lipschitz Stoch}{{2.9}{6}{Wiener Process and noise}{equation.2.3.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Simulation performed of logistic equation \ref  {eq: Constant Harvesting Stochastic}, with parameters $r=0.8\frac  {1}{\text  {month}\times \text  {fish}}$, $x_0=\frac  {M}{2}$, for a population in natural conditions (harvest exploitation $u=0$.), with presence of noise proportional to the population, with $\sigma =0.1$. Performed during 4 months. \relax }}{7}{figure.caption.11}}
+\newlabel{eq: prevloggrowth}{{2.4}{6}{Logistic Equation}{equation.2.2.4}{}}
+\newlabel{eq: loggrowth}{{2.5}{6}{Logistic Equation}{equation.2.2.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Wiener Process and noise.}{7}{section.2.3}}
+\newlabel{eq: Constant Harvesting Stochastic}{{2.6}{7}{Wiener Process and noise}{equation.2.3.6}{}}
+\newlabel{eq: LinearGrowth Det}{{2.7}{7}{Wiener Process and noise}{equation.2.3.7}{}}
+\newlabel{eq: LinearGrowth Stoch}{{2.8}{7}{Wiener Process and noise}{equation.2.3.8}{}}
+\newlabel{eq: Lipschitz Det}{{2.9}{7}{Wiener Process and noise}{equation.2.3.9}{}}
+\newlabel{eq: Lipschitz Stoch}{{2.10}{7}{Wiener Process and noise}{equation.2.3.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Simulation performed of logistic equation \ref  {eq: Constant Harvesting Stochastic}, with parameters $r=0.8$, $x_0=\frac  {M}{2}$, for a population in natural conditions (harvest exploitation $u=0$.), with presence of noise proportional to the population, with $\sigma =0.1$. Performed during 4 months. \relax }}{7}{figure.caption.11}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Fishing Strategies and Optimizing Population}{8}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -58,34 +59,49 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Constant Harvesting Analysis.}{8}{subsection.3.1.1}}
 \newlabel{eq: ConstantHarvest}{{3.2}{8}{Constant Harvesting Analysis}{equation.3.1.2}{}}
 \newlabel{eq: ConstantHarvest OverExploit}{{3.6}{9}{Constant Harvesting Analysis}{equation.3.1.6}{}}
-\newlabel{eq: Time Expression for Harvest}{{3.10}{10}{Constant Harvesting Analysis}{equation.3.1.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Constant harvest rate $u<\frac  {rM}{4}$.\relax }}{11}{figure.caption.13}}
-\newlabel{fig: SustainableConstantHarvest}{{3.2}{11}{Constant harvest rate $u<\frac {rM}{4}$.\relax }{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Figure representing $\frac  {\mathrm  {d} x}{{\mathrm  {d} t}}$ with different harvesting rates.\relax }}{11}{figure.caption.12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Constant harvest rate $u>\frac  {rM}{4}$.\relax }}{9}{figure.caption.12}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig: CriticalPoints}{{3.1}{11}{Figure representing $\dev {x}{t}$ with different harvesting rates.\relax }{figure.caption.12}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Time Varying Harvesting.}{11}{subsection.3.1.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Constant harvest rate $u>\frac  {rM}{4}$.\relax }}{12}{figure.caption.14}}
-\newlabel{fig: OverExploitConstantHarvest}{{3.3}{12}{Constant harvest rate $u>\frac {rM}{4}$.\relax }{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Constant harvest rate $u=\frac  {rM}{4}$.\relax }}{12}{figure.caption.15}}
-\newlabel{fig: CriticalExploitConstantHarvest}{{3.4}{12}{Constant harvest rate $u=\frac {rM}{4}$.\relax }{figure.caption.15}{}}
+\newlabel{fig: OverExploitConstantHarvest}{{3.1}{9}{Constant harvest rate $u>\frac {rM}{4}$.\relax }{figure.caption.12}{}}
+\newlabel{eq: Time Expression for Harvest}{{3.10}{10}{Constant Harvesting Analysis}{equation.3.1.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Constant harvest rate $u=\frac  {rM}{4}$.\relax }}{11}{figure.caption.13}}
+\newlabel{fig: CriticalExploitConstantHarvest}{{3.2}{11}{Constant harvest rate $u=\frac {rM}{4}$.\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Constant harvest rate $u<\frac  {rM}{4}$.\relax }}{11}{figure.caption.14}}
+\newlabel{fig: SustainableConstantHarvest}{{3.3}{11}{Constant harvest rate $u<\frac {rM}{4}$.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Figure representing $\frac  {\mathrm  {d} x}{{\mathrm  {d} t}}$ with different harvesting rates.\relax }}{12}{figure.caption.15}}
+\newlabel{fig: CriticalPoints}{{3.4}{12}{Figure representing $\dev {x}{t}$ with different harvesting rates.\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Time Varying Harvesting.}{12}{subsection.3.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Optimal Harvesting. Smooth Optimal Control Problem.}{13}{subsection.3.1.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Closed Loop Strategies.}{13}{section.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Constant Proportional Harvesting.}{13}{subsection.3.2.1}}
-\newlabel{eq: PropHarvest}{{3.24}{13}{Constant Proportional Harvesting}{equation.3.2.24}{}}
-\newlabel{eq: Proportional Population}{{3.29}{13}{Constant Proportional Harvesting}{equation.3.2.29}{}}
+\newlabel{eq: PropHarvest}{{3.25}{13}{Constant Proportional Harvesting}{equation.3.2.25}{}}
+\newlabel{eq: Proportional Population}{{3.30}{13}{Constant Proportional Harvesting}{equation.3.2.30}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Optimal Proportional Harvesting.}{14}{subsection.3.2.2}}
-\newlabel{eq: Nonlinear equation}{{3.35}{14}{Optimal Proportional Harvesting}{equation.3.2.35}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Economical Profit}{15}{chapter.4}}
+\newlabel{eq: Nonlinear equation}{{3.36}{14}{Optimal Proportional Harvesting}{equation.3.2.36}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Harvested fish $J(x; \mathaccentV {bar}016{p}, T, M, r, x_0)$ in units of million of fishes with different $\mathaccentV {bar}016{p}$, for $T=24$, $r=0.8$, $M=780500$, $x_0=390250$\relax }}{15}{table.caption.18}}
+\newlabel{tab: OptimumHarvestFish}{{3.1}{15}{Harvested fish $J(x; \bar {p}, T, M, r, x_0)$ in units of million of fishes with different $\bar {p}$, for $T=24$, $r=0.8$, $M=780500$, $x_0=390250$\relax }{table.caption.18}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Economical Profit}{17}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chap: Economical Profit}{{4}{15}{Economical Profit}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Linear Costs.}{15}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Dynamic Programming.}{15}{section.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Stochastic Analysis.}{15}{section.4.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Further Research}{16}{chapter.5}}
+\newlabel{chap: Economical Profit}{{4}{17}{Economical Profit}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Linear Costs.}{17}{section.4.1}}
+\newlabel{pr1}{{4.1}{17}{Linear Costs}{equation.4.1.1}{}}
+\newlabel{pr2}{{4.1}{17}{Linear Costs}{equation.4.1.2}{}}
+\newlabel{booo}{{4.1}{17}{Linear Costs}{equation.4.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Costs}{17}{subsection.4.1.1}}
+\newlabel{pr3}{{4.1.1}{17}{Costs}{equation.4.1.4}{}}
+\newlabel{bb}{{4.1.1}{17}{Costs}{equation.4.1.5}{}}
+\newlabel{pr3}{{4.1.1}{18}{Costs}{equation.4.1.6}{}}
+\newlabel{eer}{{4.1.1}{18}{Costs}{equation.4.1.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Logistic growth}{18}{subsection.4.1.2}}
+\newlabel{22}{{4.1.2}{18}{Logistic growth}{equation.4.1.12}{}}
+\newlabel{23}{{4.1.2}{18}{Logistic growth}{equation.4.1.13}{}}
+\newlabel{22}{{4.1.2}{19}{Logistic growth}{equation.4.1.14}{}}
+\newlabel{23}{{4.1.2}{19}{Logistic growth}{equation.4.1.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Dynamic Programming.}{19}{section.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Stochastic Analysis.}{19}{section.4.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Further Research}{20}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chap: Further Enhancements}{{5}{16}{Further Research}{chapter.5}{}}
+\newlabel{chap: Further Enhancements}{{5}{20}{Further Research}{chapter.5}{}}
