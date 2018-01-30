@@ -8,14 +8,15 @@
 \contentsline {section}{\numberline {3.1}Open Loop Strategies.}{8}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Constant Harvesting Analysis.}{8}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Time Varying Harvesting.}{12}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Optimal Harvesting. Smooth Optimal Control Problem.}{14}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Closed Loop Strategies.}{14}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Constant Proportional Harvesting.}{14}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Optimal Proportional Harvesting.}{15}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Economical Profit}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Linear Costs.}{18}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Costs}{18}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Logistic growth}{19}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Dynamic Programming.}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Stochastic Analysis.}{20}{section.4.3}
-\contentsline {chapter}{\numberline {5}Further Research}{21}{chapter.5}
+\contentsline {subsection}{\numberline {3.1.3}Noise Effect.}{14}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Optimal Harvesting. Smooth Optimal Control Problem.}{15}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Closed Loop Strategies.}{16}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Constant Proportional Harvesting.}{16}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Optimal Proportional Harvesting.}{16}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Economical Profit}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Linear Costs.}{20}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Costs}{20}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Logistic growth}{21}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Dynamic Programming.}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Stochastic Analysis.}{22}{section.4.3}
+\contentsline {chapter}{\numberline {5}Further Research}{23}{chapter.5}

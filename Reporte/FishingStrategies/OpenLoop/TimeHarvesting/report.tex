@@ -34,21 +34,78 @@ Therefore, the pair $x^*$, $\dot{x}^*$ that maximizes the functional $J=\int_0^T
 where $L:[0,T]\times C^1([0,T]) \mapsto \mathbb{R}$. In our case $L(x,\dot{x}, t)=u(t)$, as stated in equation \ref{eq: OpenLoopControl}. Therefore,
 
 \begin{align}
-	\dev{}{t}\left(\pdev{u}{\dot{x}^*}\right)-\pdev{u}{x^*}&=0 \nonumber\\ \dev{}{t}\left(1\right)-rx+2r\frac{x}{M}&=0 \nonumber\\
-	\implies x\left(x- \frac{M}{2}\right)&=0
+	\dev{}{t}\left(\pdev{u}{\dot{x}^*}\right)-\pdev{u}{x^*}&=0 \nonumber\\ \dev{}{t}\left(1\right)-r+2r\frac{x}{M}&=0 \nonumber\\
+	\implies x- \frac{M}{2}&=0
 \end{align}
 
-Hence $J$ has two stationary points, $x^*(t)=0$, and $x^*(t)=\frac{M}{2}$.
+Hence $J$ has one stationary point $x^*(t)=\frac{M}{2}$. Moreover, $L$ is concave for the pair $(x, \dot{x})$, therefore the function $x^*(t)$ is a maximum, and is unique. 
 
 From equation \ref{eq: HarvestOpenLoop}, when $x^*(t)=\frac{M}{2}$ we need to construct the control $u(t)$, as follows,
 \begin{equation}
 	u(t)=r\frac{M}{2}\left(1-\frac{x}{M}\right)=\frac{rM}{4}
 \end{equation}
 
-We observe that, when $x(t)=x^*(t)$, the control is the maximum of the constrain \ref{eq: OpenLoopConstrain}, we got from the analysis of the fixed points of the dynamic.
+We observe that, when $x(t)=x^*(t)$, the control is the maximum of the constrain \ref{eq: OpenLoopConstrain}, we have imposed from the analysis of the fixed points of the dynamic. 
 
+Knowing the fact, that most of the times the initial population is not always $\frac{M}{2}$, we implement the following harvesting strategy.
 
-Since we obtained a result for the optimum for $J$, realistically, this is a bad harvesting strategy, since we are considering the controls and the populations ideal.
+\begin{equation}
+	u(t)=\begin{cases}
+	0 & x(t)<x^*(t) \\
+	\frac{rM}{4} & x(t)=x^*(t) \\
+	\omega>\frac{rM}{4} & x(t)>x^*(t)
+	\end{cases}
+\end{equation}
+Where $\omega$ is some rate, fixed according to the requirements of the implementation. The aim of this strategy is to approach the fastest as possible to the stationary point of $J$. This can be seen as a raw closed loop dynamic, since our control is a function of the population $x$, as explained in the section \ref{sec: ClosedLoop}.
+
+\subsection{Noise Effect.}
+Even we obtained a result for the optimum for $J$, realistically, this is a bad harvesting strategy, since we are considering the controls and the populations ideal. And small deviations in the dynamic.
 
 In order to have a better understanding of the reality, we add the effect of noise to the dynamic.
 
+
+Consider the presence of white noise, normally distributed, added in multiplicative way to the population. That is the higher the population we have, the noise increases proportional. Then, we can write the Weiner process, for the optimal harvest dynamic,
+\begin{equation}
+dx=\left(rx\left(1-\frac{x}{M}\right)-\frac{rM}{4}\right)\diff{t}+\sigma x\diff{W} \label{eq: Constant Harvesting Stochastic Control}
+\end{equation}
+We perform a simulation of the behavior of the ideal dynamic under the presence of noise with $\sigma=0.1$.
+
+\begin{figure}[H]
+	\caption{Ideal Optimum $x^*$ under presence of noise. Population in $M$-units of  and time in units of $r$-units.}
+	\begin{center}
+	\includegraphics[width=0.5\textwidth]{NoiseIdealDynamic.png}
+	\label{fig: NoiseIdealConstant}
+	\end{center}
+\end{figure}
+
+We can interpret figure \ref{fig: NoiseIdealConstant}, as follows, with probability 0.95, our dynamic will lie in the space covered by the light blue area, with median shown by the darker line. What is really bad, since we can appreciate we have the probability to lead our population to extinction. Moreover, we can see from the graphic that for approximately six $r$ units our population will descend from $0.5M$ to around $0.4M$ in the middle situation and will decrease to around $0.1M$ in a bad situation.
+
+In addition to the discussion, figure \ref{fig: NoiseIdealConstant2} shows the $95\%$ and $50\%$ quantiles for the dynamic, (blue and orange area respectively).
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{NoiseIdealDynamic2.png}
+		\caption{Quantiles for the ideal dynamic.}
+		\label{fig: NoiseIdealConstant2}
+	\end{center}
+\end{figure}
+
+Our suggestion is to perform a constant harvest rate $\bar{u}<u^*$, but close to the dynamic of $(x^*,u^*)$. Since this for $u<u^*$ generates two fixed points, our populations hardly will decreases. We show the following results for $u=0.9u^*=\frac{9}{40}rM$ and time horizon of six $r$-units. 
+
+\begin{figure}[H]
+	\caption{Noise Tolerant Harvesting.}
+	\begin{center}
+		\begin{subfigure}{0.3\textwidth}
+			\includegraphics[width=0.95\textwidth]{NoisePresenceDynamic.png}
+			\caption{One simulation performed of the dynamic for $\bar{u}=0.9u^*$.}
+		\end{subfigure}
+		\begin{subfigure}{0.3\textwidth}
+		\includegraphics[width=0.95\textwidth]{SmarterNoiseTolerant2.png}
+		\caption{0.95 and 0.5 quantiles}
+		\end{subfigure}
+		\begin{subfigure}{0.3\textwidth}
+			\includegraphics[width=0.95\textwidth]{SmarterNoiseTolerant.png}
+			\caption{0.95 quantile}
+		\end{subfigure}
+	\end{center}
+\end{figure}
