@@ -37,7 +37,7 @@ function g(u,p,t)
 	return  u*r+solX(bt)-M/2.0-2.0*u*r*(solX(bt))/M
 end
 
-for i in 1:100
+for i in 1:30
 	probX = ODEProblem(f,x0,tspan)
 	solX = solve(probX,Tsit5(),reltol=1e-8,abstol=1e-8)
 
@@ -49,7 +49,7 @@ for i in 1:100
 	
 	tmpSol=solL
 	probL = ODEProblem(g,lam0,tspan)
-	solL = solve(probL,Tsit5(),reltol=1e-8,abstol=1e-8)
+	solL = solve(probL,Rosenbrock23(),reltol=1e-8,abstol=1e-8)
 	counter=1;
 	delta=0
 	for tt in solL.t
