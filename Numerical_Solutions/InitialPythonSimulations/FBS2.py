@@ -49,7 +49,7 @@ def lun(t, lam, x, u, params):
 	return (-x+M/2.0-lam*r+2.0*lam*r*x/M);
 
 
-r=0.8; M=780500.0; alpha=45.00;
+r=0.8; M=780500.0; alpha=10.0;
 params=[r, M, alpha]
 
 tStop=12.0;
@@ -65,7 +65,7 @@ lam=np.ones(len(t));
 for k in range(0, 150):
 	uold=u;
 	[x, u] = FKutta(t, x, uold, fun, x0, params);
-	lamT=0.5*tStop*(x[len(t)-1]-M*0.5)
+	lamT=0.5*(x[len(t)-1]-M*0.5)
 	#lamT=0.0;
 	[x, u, lam]=BKutta(t, lam, x, uold, lun, lamT, params);	
 	u=0.5*u+0.5*uold;
@@ -80,19 +80,19 @@ for k in range(0, 150):
 fig = plt.figure(1, figsize=(8,8))
 
 # Plot theta as a function of time
-ax1 = fig.add_subplot(311)
+ax1 = fig.add_subplot(211)
 ax1.plot(t, x)
 ax1.set_xlabel('time')
 ax1.set_ylabel('x')
 
 # Plot omega as a function of time
-ax2 = fig.add_subplot(312)
-ax2.plot(t,lam);
-ax2.set_xlabel('time')
-ax2.set_ylabel('lam')
+#ax2 = fig.add_subplot(312)
+#ax2.plot(t,lam);
+#ax2.set_xlabel('time')
+#ax2.set_ylabel('lam')
 
 # Plot omega vs theta
-ax3 = fig.add_subplot(313)
+ax3 = fig.add_subplot(212)
 ax3.plot(t, r*M/4.0-u)
 ax3.set_xlabel('time')
 ax3.set_ylabel('u')

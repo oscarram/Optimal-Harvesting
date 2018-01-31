@@ -3,7 +3,7 @@ using Plots; pyplot();
  
 r=0.8
 M=780500
-x0=M*0.5
+x0=M*0.45
 #pr=0.531176
 pr=0.631176
 f(u,p,t) = r*u*(1-u/M)-pr*r*u

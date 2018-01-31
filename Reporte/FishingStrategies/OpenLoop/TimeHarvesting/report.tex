@@ -23,7 +23,7 @@ and the functional $J$ now, as a map of $x$ and $\dot{x}=\dev{x}{t}$ instead of 
 \begin{equation}
 	J(x,\dot{x};T,r,M)=\int_{0}^{T} \left(rx\left(1-\frac{x}{M}\right)-\dot{x}\right) \diff{t} \label{eq: Functional for Population.}
 \end{equation}
-We can restate the problem as follows, we would like to find the population $x(t)$ among all the possible populations\footnote{We see from equation \ref{eq: Functional for Population.}, that the space where we are trying to find the optimum is $L^2([0,T])\cap \mathrm{BV}([0,T])$, where $\mathrm{BV}(\Omega)$ is the space of bounded variations over some open set $\Omega$. }, such that $J$ is maximized. Once we know the population, we can construct a control $u(t)$ such that equation \ref{eq: HarvestOpenLoop} is satisfied. Then, we ask the condition for $x \in C^1([0,T])$.
+We can restate the problem as follows, we would like to find the population $x(t)$ among all the possible populations\footnote{We see from equation \ref{eq: Functional for Population.}, that the space where we are trying to find the optimum is $\LL([0,T])\cap \mathrm{BV}([0,T])$, where $\mathrm{BV}(\Omega)$ is the space of bounded variations over some open set $\Omega$. }, such that $J$ is maximized. Once we know the population, we can construct a control $u(t)$ such that equation \ref{eq: HarvestOpenLoop} is satisfied. Then, we ask the condition for $x \in C^1([0,T])$.
 
 Therefore, the pair $x^*$, $\dot{x}^*$ that maximizes the functional $J=\int_0^T L(x, \dot{x}, t)\diff{t}$, should satisfy the Euler-Lagrange equations,
 
@@ -56,7 +56,7 @@ Knowing the fact, that most of the times the initial population is not always $\
 	\omega>\frac{rM}{4} & x(t)>x^*(t)
 	\end{cases}
 \end{equation}
-Where $\omega$ is some rate, fixed according to the requirements of the implementation. The aim of this strategy is to approach the fastest as possible to the stationary point of $J$. This can be seen as a raw closed loop dynamic, since our control is a function of the population $x$, as explained in the section \ref{sec: ClosedLoop}.
+Where $\omega$ is some rate a bit greater than $rM/4$, fixed according to the requirements of the implementation. The aim of this strategy is to approach the fastest as possible to the stationary point of $J$. This can be seen as a raw closed loop dynamic, since our control is a function of the population $x$, as explained in the section \ref{sec: ClosedLoop}.
 
 \subsection{Noise Effect.}
 Even we obtained a result for the optimum for $J$, realistically, this is a bad harvesting strategy, since we are considering the controls and the populations ideal. And small deviations in the dynamic.
@@ -64,16 +64,16 @@ Even we obtained a result for the optimum for $J$, realistically, this is a bad 
 In order to have a better understanding of the reality, we add the effect of noise to the dynamic.
 
 
-Consider the presence of white noise, normally distributed, added in multiplicative way to the population. That is the higher the population we have, the noise increases proportional. Then, we can write the Weiner process, for the optimal harvest dynamic,
+Consider the presence of white noise, normally distributed, added in multiplicative way to the population. That is the higher the population we have, the noise increases proportional. Then, we can write the logistic equation under the optimal harvesting rate as a Weiner process,
 \begin{equation}
 dx=\left(rx\left(1-\frac{x}{M}\right)-\frac{rM}{4}\right)\diff{t}+\sigma x\diff{W} \label{eq: Constant Harvesting Stochastic Control}
 \end{equation}
-We perform a simulation of the behavior of the ideal dynamic under the presence of noise with $\sigma=0.1$.
+Figure \ref{fig: NoiseIdealConstant} shows a simulation of the behavior of the ideal dynamic under the presence of noise with $\sigma=0.1$.
 
-\begin{figure}[H]
-	\caption{Ideal Optimum $x^*$ under presence of noise. Population in $M$-units of  and time in units of $r$-units.}
+\begin{figure}[H]	
 	\begin{center}
 	\includegraphics[width=0.5\textwidth]{NoiseIdealDynamic.png}
+	\caption{Ideal Optimum $x^*$ under presence of noise. Population in $M$-units of  and time in units of $r$-units.}
 	\label{fig: NoiseIdealConstant}
 	\end{center}
 \end{figure}
