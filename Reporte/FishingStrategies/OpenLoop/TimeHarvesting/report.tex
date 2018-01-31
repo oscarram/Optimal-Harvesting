@@ -28,7 +28,7 @@ We can restate the problem as follows, we would like to find the population $x(t
 Therefore, the pair $x^*$, $\dot{x}^*$ that maximizes the functional $J=\int_0^T L(x, \dot{x}, t)\diff{t}$, should satisfy the Euler-Lagrange equations,
 
 \begin{equation}
-	\dev{}{t}\left(\pdev{L}{\dot{x}^*}\right)-\pdev{L}{x^*}=0
+	\dev{}{t}\left(\pdev{L}{\dot{x}^*}\right)-\pdev{L}{x^*}=0 \label{eq: Euler-Lagrange}
 \end{equation}
 
 where $L:[0,T]\times C^1([0,T]) \mapsto \mathbb{R}$. In our case $L(x,\dot{x}, t)=u(t)$, as stated in equation \ref{eq: OpenLoopControl}. Therefore,
