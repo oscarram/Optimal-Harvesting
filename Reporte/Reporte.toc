@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.1.4}Optimal Harvesting. Smooth Optimal Control Problem.}{15}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2}Closed Loop Strategies.}{18}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Constant Proportional Harvesting.}{18}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Optimal Proportional Harvesting.}{18}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Optimal Proportional Harvesting.}{19}{subsection.3.2.2}
 \contentsline {chapter}{\numberline {4}Economical Profit}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}Linear Costs.}{22}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Costs}{22}{subsection.4.1.1}

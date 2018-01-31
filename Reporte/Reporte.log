@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  31 JAN 2018 02:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  31 JAN 2018 04:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,10 +1503,31 @@ vesting/SmarterNoiseTolerant2.png> <./FishingStrategies/OpenLoop/TimeHarvesting
 Missing character: There is no â in font mdbchr7t!
 Missing character: There is no ˆ in font mdbchr7t!
 Missing character: There is no — in font mdbchr7t!
- [16]) (./FishingStrategies/ClosedLoop/report.tex)
-[17] (./FishingStrategies/ClosedLoop/ConstantProportional/report.tex)
-(./FishingStrategies/ClosedLoop/OptimalHarvest/report.tex [18]
-<FishingStrategies/ClosedLoop/ConstantProportional/optpop.png, id=357, 361.35pt
+ [16]
+<FishingStrategies/OpenLoop/OptimalControl/Population.png, id=325, 602.25pt x 4
+01.5pt>
+File: FishingStrategies/OpenLoop/OptimalControl/Population.png Graphic file (ty
+pe png)
+ <use FishingStrategies/OpenLoop/OptimalControl/Population.png>
+Package pdftex.def Info: FishingStrategies/OpenLoop/OptimalControl/Population.p
+ng used on input line 112.
+(pdftex.def)             Requested size: 227.05023pt x 151.36467pt.
+
+<FishingStrategies/OpenLoop/OptimalControl/Harvest.png, id=326, 602.25pt x 401.
+5pt>
+File: FishingStrategies/OpenLoop/OptimalControl/Harvest.png Graphic file (type 
+png)
+ <use FishingStrategies/OpenLoop/OptimalControl/Harvest.png>
+Package pdftex.def Info: FishingStrategies/OpenLoop/OptimalControl/Harvest.png 
+used on input line 116.
+(pdftex.def)             Requested size: 227.05023pt x 151.36467pt.
+ [17])
+(./FishingStrategies/ClosedLoop/report.tex)
+(./FishingStrategies/ClosedLoop/ConstantProportional/report.tex [18 <./FishingS
+trategies/OpenLoop/OptimalControl/Population.png> <./FishingStrategies/OpenLoop
+/OptimalControl/Harvest.png>])
+(./FishingStrategies/ClosedLoop/OptimalHarvest/report.tex
+<FishingStrategies/ClosedLoop/ConstantProportional/optpop.png, id=361, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/optpop.png Graphic file
  (type png)
@@ -1516,7 +1537,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/optp
 op.png used on input line 42.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/optpro.png, id=358, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/optpro.png, id=362, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/optpro.png Graphic file
  (type png)
@@ -1525,8 +1546,8 @@ File: FishingStrategies/ClosedLoop/ConstantProportional/optpro.png Graphic file
 Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/optp
 ro.png used on input line 47.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
-
-<FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png, id=359, 361.35pt
+ [19]
+<FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png, id=375, 361.35pt
  x 210.7875pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png Graphic file
  (type png)
@@ -1536,7 +1557,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/lshp
 op.png used on input line 56.
 (pdftex.def)             Requested size: 201.65616pt x 117.63171pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png, id=360, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png, id=376, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png Graphic file
  (type png)
@@ -1546,7 +1567,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/lshp
 ro.png used on input line 60.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png, id=361, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png, id=377, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png Graphic file
  (type png)
@@ -1556,7 +1577,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/mrhp
 op.png used on input line 64.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png, id=362, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png, id=378, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png Graphic file
  (type png)
@@ -1565,17 +1586,20 @@ File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png Graphic file
 Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/mrhp
 ro.png used on input line 68.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
- [19 <./FishingStrategies/ClosedLoop/ConstantProportional/optpop.png (PNG copy)
-> <./FishingStrategies/ClosedLoop/ConstantProportional/optpro.png (PNG copy)>]
+
 
 LaTeX Font Warning: Font shape `T1/5ch/b/n' undefined
 (Font)              using `T1/5ch/m/n' instead on input line 78.
 
-[20 <./FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png (PNG copy)>
- <./FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png (PNG copy)> <.
-/FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png (PNG copy)> <./Fi
-shingStrategies/ClosedLoop/ConstantProportional/mrhpro.png (PNG copy)>])
-[21]
+
+Underfull \vbox (badness 2818) has occurred while \output is active []
+
+ [20 <./FishingStrategies/ClosedLoop/ConstantProportional/optpop.png (PNG copy)
+> <./FishingStrategies/ClosedLoop/ConstantProportional/optpro.png (PNG copy)> <
+./FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png (PNG copy)> <./F
+ishingStrategies/ClosedLoop/ConstantProportional/lshpro.png (PNG copy)> <./Fish
+ingStrategies/ClosedLoop/ConstantProportional/mrhpop.png (PNG copy)> <./Fishing
+Strategies/ClosedLoop/ConstantProportional/mrhpro.png (PNG copy)>]) [21]
 chapter 4.
 (./Profiting/report.tex) (./Profiting/LinearCosts/report.tex
 
@@ -1608,10 +1632,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 16133 strings out of 493029
- 256901 string characters out of 6136234
+ 16143 strings out of 493029
+ 257400 string characters out of 6136234
  429445 words of memory out of 5000000
- 19087 multiletter control sequences out of 15000+600000
+ 19095 multiletter control sequences out of 15000+600000
  66562 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,18n,106p,686b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1630,10 +1654,10 @@ mdbch/md-chrma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
 ts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Reporte.pdf (27 pages, 1644085 bytes).
+Output written on Reporte.pdf (27 pages, 1690779 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
+ 525 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
  162 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

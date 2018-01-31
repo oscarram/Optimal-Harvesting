@@ -69,7 +69,7 @@ for tt in solL.t
 	harvest.u[counter]=r*M/4+solL(tmpT)/etas
 	counter=counter+1
 end
-plot(harvest)
-plot!(solX)
+plot(harvest, linewidth=2, xaxis="Time (t)", yaxis="Number of fishes", label="Fish Harvest rate", ylims=(0, M)))
+plot!(plotX, linewidth=2, xaxis="Time (t)", yaxis="Number of fishes", label="Population", ylims=(0, M)))
 Nfishes(t)=harvest(t)
 quadgk(Nfishes, 0, TH)
