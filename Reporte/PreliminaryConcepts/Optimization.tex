@@ -1,3 +1,70 @@
 \section{Optimality on Convex and Lower Semi-Continuous Functions.}
+This sections concerns the theory about convex and semi-continuous functions.As the mathematical approach taken in the present work involves calculus of variations we think that is important to clarify that point.
+
+\subsection{Convex functions}
+Let \textit{X} be a real linear space. We can make the following definition:
+
+\textbf{Definition 1.1} The function $f: X \rightarrow \mathbb{R}$ is called \textit{convex} if the inequality 
+
+$$f(\lambda x + (1-\lambda)y) \leq \lambda f(x)+(1-\lambda)f(y)$$
+holds for every $\lambda \in [0,1]$ and all $x, y \in X$ such that the right-hand side is well defined.The function $f$ is called \textit{strictly convex} if an inequality strictly holds in the inequality for every $\lambda \in [0,1]$ and for all pairs of distinct points \textit{x,y} in X with $f(x)<\infty$ and $f(y)< \infty$.
+
+\subsection{Lower Semi-Continuous functions}
+Let \textit{X} be a topological space. We can make the following definition:
+
+\textbf{Definition 1.2} The function $f: X \rightarrow \mathbb{R}$ is called \textit{lower-semicontinuous} at $x_0$ if 
+$f(x_0) = \liminf_{x\to x_0} f(x).$
+
+A function that is \textit{lower-semicontinuous} at each point \textit{X} is called \textit{lower-semicontinuous} on \textit{X}.
+
 \section{Euler-Lagrange Equation.}
+The Euler-Lagrange equation is an usual topic in the calculus of variations. The simplest problem of the calculus of variations is a optimization problem where the objective 
+
+$$J(x)=\int_{0}^{T} g(t,x,\dot{x})\diff{t}$$
+
+hast to be maximized (minimized) with respect to \textit{x}, subject to 
+
+$$x(0)=x_0$$
+$$x(T)=x_T$$
+
+where \textit{g} is a twice differentiable function. Where \textit{x} without any argument denotes the entire path ${x(t): t \in [0,T]}$ when \textit{T} is finite and ${x(t): t \in [0,T)}$ when \textit{T} is infinite. 
+
+The calculus of variations is based in the analysis of infinitesimally small variations to an admissible \textit{x} trying to find the optimal one for our functional. That leads to the following \textit{Euler-Lagrange equation} satisfied by all such solutions:
+
+\begin{equation}
+\pdev{g}{x} = \dev{}{t}\left(\pdev{g}{\dot{x}}\right)
+\end{equation}
+
+The equation is used in several parts of the work allowing us to obtain functions for model the harvesting that are the optimal ones for maximizing the benefits or the amount of fished harvested.
+
 \section{Pontryagin's Theorem.}
+Pontryagin's maximum (or minimum) principle is commonly used in \textit{optimal} control theory to find the best possible control for taking a dynamical system from one state to another, especially in the presence of constraints for the state or input controls. As it has as especial case the \textit{Euler-Lagrange equation} of the calculus of variations that principle is going to be very useful in the whole work.
+
+We are not going to detail a very rigorous formulation of the principle because it takes a long time and we are interesting in the basic idea that yields from it: \textit{the control Hamiltonian must take an extreme value over controls in the set of all permissible controls.}
+
+So,if $\mathbb{U}$ is the set of values of permissible controls then the principle states that the optimal control $u*$ must satisfy:
+
+$$H(\asterisk{x}(t),\asterisk{u}(t),\asterisk{\lambda}(t),t) \leq H(\asterisk{x}(t),u,\asterisk{\lambda}(t),t)$$
+
+$$\forall u \in U, t \in [t_0,t_f]$$ 
+%
+%\section{Gr\"onwall's inequality.}
+%
+%Let $I$ denote an interval of the real line of the form $[a, \infty)$ or $[a, b]$ or $[a, b)$ with a < b. Let $\alpha$, $\beta$ and $u$ be real-valued functions defined on $I$. Assume that $\beta$ and $u$ are continuous and that the negative part of $\alpha$ is integrable on every closed and bounded subinterval of $I$.
+%
+%\begin{enumerate}
+%	\item  If $\beta$ is non-negative and if u satisfies the integral inequality.
+%	\begin{equation}
+%		u(t)\leq \alpha(t)+\int_{a}^t \beta(s)u(s)\diff{s},\quad \forall t \in I.\label{eq: Gronwall0}
+%	\end{equation}
+%	then,
+%	\begin{equation}
+%	u (t) \leq \alpha(t) + \int_{a}^{t} \alpha(s)\beta(s)\exp\left(\int_{s}^{t}\beta(r)\diff{r}\right) \diff{s},\quad \forall t\in I, \label{eq: Gronwall1}
+%	\end{equation}
+%	\item If, in addition the function $\alpha$ is non-decreasing, then
+%	\begin{equation}
+%	u(t)\leq \alpha(t)\exp\left(\int_{a}^{t}\beta(s)\diff{s}\right), \quad t\in I. \label{eq: Gronwall2}
+%	\end{equation}
+%	
+%\end{enumerate}
+

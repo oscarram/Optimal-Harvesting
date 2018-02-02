@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  31 JAN 2018 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  2 FEB 2018 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,117 +1086,117 @@ Package caption Info: End \AtBeginDocument code.
 \TUD@sponsorbox=\box47
 \TUD@tmp@height=\skip134
 \TUD@tmp@depth=\skip135
-LaTeX Font Info:    Try loading font information for T1+5fp on input line 38.
-LaTeX Font Info:    No file T15fp.fd. on input line 38.
+LaTeX Font Info:    Try loading font information for T1+5fp on input line 39.
+LaTeX Font Info:    No file T15fp.fd. on input line 39.
 
 
 LaTeX Font Warning: Font shape `T1/5fp/mb/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 38.
+(Font)              using `T1/cmr/m/n' instead on input line 39.
 
-LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 38
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 39
 .
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 38.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 38
+(Font)              scaled to size 6.62404pt on input line 39.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 39
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.62404pt on input line 38.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 38
+(Font)              scaled to size 6.62404pt on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 39
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 38.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 38
+(Font)              scaled to size 6.62404pt on input line 39.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 39
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 38.
+(Font)              scaled to size 6.62404pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 38.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 38
+(Font)              scaled to size 6.62404pt on input line 39.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 39
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 38.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 38
+(Font)              scaled to size 6.62404pt on input line 39.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 39
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.04007pt on input line 38.
+(Font)              scaled to size 11.04007pt on input line 39.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 38.
+(Font)              scaled to size 7.68005pt on input line 39.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 38.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 38
+(Font)              scaled to size 6.62404pt on input line 39.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 39
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdput/omlmdput.fd
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 10.81003pt on input line 38.
+(Font)              scaled to size 10.81003pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 38.
+(Font)              scaled to size 7.52002pt on input line 39.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.48601pt on input line 38.
+(Font)              scaled to size 6.48601pt on input line 39.
 \@TUD@titlelines=\count159
 
 
 LaTeX Font Warning: Font shape `T1/5fp/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 38.
+(Font)              using `T1/cmr/m/n' instead on input line 39.
 
-<uab_logo.png, id=88, 706.0779pt x 261.6174pt>
+<uab_logo.png, id=96, 706.0779pt x 261.6174pt>
 File: uab_logo.png Graphic file (type png)
  <use uab_logo.png>
-Package pdftex.def Info: uab_logo.png used on input line 38.
+Package pdftex.def Info: uab_logo.png used on input line 39.
 (pdftex.def)             Requested size: 168.93423pt x 62.59605pt.
 File: uab_logo.png Graphic file (type png)
 
 <use uab_logo.png>
-Package pdftex.def Info: uab_logo.png used on input line 38.
+Package pdftex.def Info: uab_logo.png used on input line 39.
 (pdftex.def)             Requested size: 168.93423pt x 62.59605pt.
 \@TUD@logolines=\count160
  [-1
@@ -1206,15 +1206,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </h
 ome/beren/Libraries/Latex/tudtemplates/logo/uab_logo.png>] [0
 
-] [1
-
-
-]
-(./Reporte.toc)
+] (./Reporte.toc)
 \tf@toc=\write4
 \openout4 = `Reporte.toc'.
 
- [2
+
+[1
+
 
 ]
 chapter 1.
@@ -1233,19 +1231,28 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-(./PreliminaryConcepts/Optimization.tex) [3
+(./PreliminaryConcepts/Optimization.tex
 
-]
+LaTeX Font Warning: Font shape `T1/5ch/m/it' undefined
+(Font)              using `T1/5ch/m/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `T1/5ch/b/n' undefined
+(Font)              using `T1/5ch/m/n' instead on input line 7.
+
+[2
+
+]) [3]
 chapter 2.
 (./ProblemFramework/report.tex
-<ProblemFramework/over.jpg, id=141, 908.39375pt x 412.54124pt>
+<ProblemFramework/over.jpg, id=157, 908.39375pt x 412.54124pt>
 File: ProblemFramework/over.jpg Graphic file (type jpg)
 
 <use ProblemFramework/over.jpg>
 Package pdftex.def Info: ProblemFramework/over.jpg used on input line 4.
 (pdftex.def)             Requested size: 497.92325pt x 226.1304pt.
 
-<ProblemFramework/utilizedfish.jpeg, id=143, 1184.425pt x 504.88625pt>
+<ProblemFramework/utilizedfish.jpeg, id=159, 1184.425pt x 504.88625pt>
 File: ProblemFramework/utilizedfish.jpeg Graphic file (type jpg)
 
 <use ProblemFramework/utilizedfish.jpeg>
@@ -1253,7 +1260,7 @@ Package pdftex.def Info: ProblemFramework/utilizedfish.jpeg used on input line
 12.
 (pdftex.def)             Requested size: 497.92325pt x 212.25107pt.
 
-<ProblemFramework/1970.jpeg, id=146, 736.7525pt x 414.54875pt>
+<ProblemFramework/1970.jpeg, id=162, 736.7525pt x 414.54875pt>
 File: ProblemFramework/1970.jpeg Graphic file (type jpg)
 
 <use ProblemFramework/1970.jpeg>
@@ -1262,7 +1269,7 @@ Package pdftex.def Info: ProblemFramework/1970.jpeg used on input line 20.
  [4
 
  <./ProblemFramework/over.jpg> <./ProblemFramework/utilizedfish.jpeg>]
-<ProblemFramework/2010.jpeg, id=153, 734.745pt x 406.51875pt>
+<ProblemFramework/2010.jpeg, id=170, 734.745pt x 406.51875pt>
 File: ProblemFramework/2010.jpeg Graphic file (type jpg)
 
 <use ProblemFramework/2010.jpeg>
@@ -1274,7 +1281,7 @@ chapter 3.
 (./Model/LogisticEquation/report.tex) (./Model/WienerProcess/report.tex
 [7
 
-] <Model/WienerProcess/Noise1.png, id=186, 602.25pt x 401.5pt>
+] <Model/WienerProcess/Noise1.png, id=198, 602.25pt x 401.5pt>
 File: Model/WienerProcess/Noise1.png Graphic file (type png)
 
 <use Model/WienerProcess/Noise1.png>
@@ -1295,7 +1302,7 @@ LaTeX Font Warning: Font shape `TS1/5ch/m/n' undefined
 (./FishingStrategies/OpenLoop/ConstantHarvest/report.tex [9
 
 ]
-<FishingStrategies/OpenLoop/ConstantHarvest/OverExploitConstant.png, id=211, 13
+<FishingStrategies/OpenLoop/ConstantHarvest/OverExploitConstant.png, id=223, 13
 87.584pt x 715.473pt>
 File: FishingStrategies/OpenLoop/ConstantHarvest/OverExploitConstant.png Graphi
 c file (type png)
@@ -1306,7 +1313,7 @@ Constant.png used on input line 35.
 (pdftex.def)             Requested size: 398.3401pt x 205.39667pt.
 
 [10 <./FishingStrategies/OpenLoop/ConstantHarvest/OverExploitConstant.png>]
-<FishingStrategies/OpenLoop/ConstantHarvest/CriticalExploitConstant.png, id=222
+<FishingStrategies/OpenLoop/ConstantHarvest/CriticalExploitConstant.png, id=234
 , 1387.584pt x 715.473pt>
 File: FishingStrategies/OpenLoop/ConstantHarvest/CriticalExploitConstant.png Gr
 aphic file (type png)
@@ -1319,7 +1326,7 @@ loitConstant.png used on input line 81.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-<FishingStrategies/OpenLoop/ConstantHarvest/SustainableConstant.png, id=232, 13
+<FishingStrategies/OpenLoop/ConstantHarvest/SustainableConstant.png, id=244, 13
 87.584pt x 715.473pt>
 File: FishingStrategies/OpenLoop/ConstantHarvest/SustainableConstant.png Graphi
 c file (type png)
@@ -1331,7 +1338,7 @@ Constant.png used on input line 94.
 
 [12 <./FishingStrategies/OpenLoop/ConstantHarvest/CriticalExploitConstant.png> 
 <./FishingStrategies/OpenLoop/ConstantHarvest/SustainableConstant.png>]
-<FishingStrategies/OpenLoop/ConstantHarvest/CriticalPoints.png, id=249, 1387.58
+<FishingStrategies/OpenLoop/ConstantHarvest/CriticalPoints.png, id=261, 1387.58
 4pt x 715.473pt>
 File: FishingStrategies/OpenLoop/ConstantHarvest/CriticalPoints.png Graphic fil
 e (type png)
@@ -1392,7 +1399,7 @@ LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 (Font)              scaled to size 5.45201pt on input line 26.
  [14]
-<FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic.png, id=283, 1305.
+<FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic.png, id=295, 1305.
 87875pt x 806.01125pt>
 File: FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic.png Graphic f
 ile (type png)
@@ -1402,7 +1409,7 @@ Package pdftex.def Info: FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDy
 namic.png used on input line 75.
 (pdftex.def)             Requested size: 248.96162pt x 153.66026pt.
 
-<FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic2.png, id=286, 602.
+<FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic2.png, id=298, 602.
 25pt x 401.5pt>
 File: FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic2.png Graphic 
 file (type png)
@@ -1412,7 +1419,7 @@ Package pdftex.def Info: FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDy
 namic2.png used on input line 87.
 (pdftex.def)             Requested size: 248.96162pt x 165.97612pt.
  [15 <./FishingStrategies/OpenLoop/TimeHarvesting/NoiseIdealDynamic.png>]
-<FishingStrategies/OpenLoop/TimeHarvesting/NoisePresenceDynamic.png, id=297, 60
+<FishingStrategies/OpenLoop/TimeHarvesting/NoisePresenceDynamic.png, id=308, 60
 2.25pt x 401.5pt>
 File: FishingStrategies/OpenLoop/TimeHarvesting/NoisePresenceDynamic.png Graphi
 c file (type png)
@@ -1470,7 +1477,7 @@ LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 (Font)              scaled to size 5.92201pt on input line 104.
 
-<FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant2.png, id=298, 6
+<FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant2.png, id=309, 6
 02.25pt x 401.5pt>
 File: FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant2.png Graph
 ic file (type png)
@@ -1480,7 +1487,7 @@ Package pdftex.def Info: FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoise
 Tolerant2.png used on input line 107.
 (pdftex.def)             Requested size: 141.90909pt x 94.60368pt.
 
-<FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant.png, id=299, 60
+<FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant.png, id=310, 60
 2.25pt x 401.5pt>
 File: FishingStrategies/OpenLoop/TimeHarvesting/SmarterNoiseTolerant.png Graphi
 c file (type png)
@@ -1499,22 +1506,22 @@ Missing character: There is no â in font mdbchr7t!
 Missing character: There is no ˆ in font mdbchr7t!
 Missing character: There is no — in font mdbchr7t!
  [17]
-<FishingStrategies/OpenLoop/OptimalControl/Population.png, id=330, 602.25pt x 4
+<FishingStrategies/OpenLoop/OptimalControl/Population.png, id=341, 602.25pt x 4
 01.5pt>
 File: FishingStrategies/OpenLoop/OptimalControl/Population.png Graphic file (ty
 pe png)
  <use FishingStrategies/OpenLoop/OptimalControl/Population.png>
 Package pdftex.def Info: FishingStrategies/OpenLoop/OptimalControl/Population.p
-ng used on input line 112.
+ng used on input line 208.
 (pdftex.def)             Requested size: 227.05023pt x 151.36467pt.
 
-<FishingStrategies/OpenLoop/OptimalControl/Harvest.png, id=331, 602.25pt x 401.
+<FishingStrategies/OpenLoop/OptimalControl/Harvest.png, id=342, 602.25pt x 401.
 5pt>
 File: FishingStrategies/OpenLoop/OptimalControl/Harvest.png Graphic file (type 
 png)
  <use FishingStrategies/OpenLoop/OptimalControl/Harvest.png>
 Package pdftex.def Info: FishingStrategies/OpenLoop/OptimalControl/Harvest.png 
-used on input line 116.
+used on input line 212.
 (pdftex.def)             Requested size: 227.05023pt x 151.36467pt.
  [18])
 (./FishingStrategies/ClosedLoop/report.tex)
@@ -1522,7 +1529,7 @@ used on input line 116.
 trategies/OpenLoop/OptimalControl/Population.png> <./FishingStrategies/OpenLoop
 /OptimalControl/Harvest.png>])
 (./FishingStrategies/ClosedLoop/OptimalHarvest/report.tex
-<FishingStrategies/ClosedLoop/ConstantProportional/optpop.png, id=365, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/optpop.png, id=378, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/optpop.png Graphic file
  (type png)
@@ -1532,7 +1539,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/optp
 op.png used on input line 42.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/optpro.png, id=366, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/optpro.png, id=379, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/optpro.png Graphic file
  (type png)
@@ -1542,7 +1549,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/optp
 ro.png used on input line 47.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
  [20]
-<FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png, id=379, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png, id=392, 361.35pt
  x 210.7875pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png Graphic file
  (type png)
@@ -1552,7 +1559,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/lshp
 op.png used on input line 56.
 (pdftex.def)             Requested size: 201.65616pt x 117.63171pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png, id=380, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png, id=393, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/lshpro.png Graphic file
  (type png)
@@ -1562,7 +1569,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/lshp
 ro.png used on input line 60.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png, id=381, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png, id=394, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpop.png Graphic file
  (type png)
@@ -1572,7 +1579,7 @@ Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/mrhp
 op.png used on input line 64.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
 
-<FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png, id=382, 361.35pt
+<FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png, id=395, 361.35pt
  x 208.78pt>
 File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png Graphic file
  (type png)
@@ -1581,14 +1588,6 @@ File: FishingStrategies/ClosedLoop/ConstantProportional/mrhpro.png Graphic file
 Package pdftex.def Info: FishingStrategies/ClosedLoop/ConstantProportional/mrhp
 ro.png used on input line 68.
 (pdftex.def)             Requested size: 201.65616pt x 116.5114pt.
-
-
-LaTeX Font Warning: Font shape `T1/5ch/b/n' undefined
-(Font)              using `T1/5ch/m/n' instead on input line 78.
-
-
-Underfull \vbox (badness 2818) has occurred while \output is active []
-
  [21 <./FishingStrategies/ClosedLoop/ConstantProportional/optpop.png (PNG copy)
 > <./FishingStrategies/ClosedLoop/ConstantProportional/optpro.png (PNG copy)> <
 ./FishingStrategies/ClosedLoop/ConstantProportional/lshpop.png (PNG copy)> <./F
@@ -1600,34 +1599,37 @@ chapter 5.
 
 ]
 chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
-[24
+(./Research/report.tex) (./Reporte.bbl [24
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
- (./Reporte.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 10.
 
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+ [25
 
-Package rerunfilecheck Warning: File `Reporte.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
 
-Package rerunfilecheck Info: Checksums for `Reporte.out':
-(rerunfilecheck)             Before: 85EF088630F265A16D89FCD82F0C75EA;1514
-(rerunfilecheck)             After:  22FA49AEB1714942BB5EDECE44C332E8;1515.
+(./Reporte.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package rerunfilecheck Info: File `Reporte.out' has not changed.
+(rerunfilecheck)             Checksum: E4416A18AEA56471E96B3B7E9C3454BF;1670.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 16125 strings out of 493029
- 257088 string characters out of 6136234
- 429250 words of memory out of 5000000
- 19089 multiletter control sequences out of 15000+600000
- 66562 words of font info for 139 fonts, out of 8000000 for 9000
+ 16222 strings out of 493029
+ 258688 string characters out of 6136234
+ 431849 words of memory out of 5000000
+ 19148 multiletter control sequences out of 15000+600000
+ 66884 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,18n,106p,686b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -1644,11 +1646,12 @@ mdbch/md-chrma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Reporte.pdf (26 pages, 1685506 bytes).
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on Reporte.pdf (27 pages, 1688418 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 152 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

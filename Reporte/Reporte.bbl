@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{FlemingRaymond}
+Wendell Fleming and Raymond Rishel.
+\newblock {\em Deterministic and Stochastic Optimal Control}.
+\newblock Springer, 1975.
+
+\bibitem{seaaroundus}
+Fisheries, ecosystems and biodiversity.
+\newblock \url{http://www.seaaroundus.org/}.
+
+\bibitem{fao}
+Food and agriculture organization of united nations.
+\newblock \url{http://www.fao.org/}.
+
+\bibitem{suri2008optimal}
+Ratneesh Suri.
+\newblock Optimal harvesting strategies for fisheries: a differential equations
+  approach: a thesis presented in partial fulfillment of the requirement for
+  the degree of doctor of philosophy in mathematics at massey university,
+  albany, new zealand.
+\newblock 2008.
+
+\bibitem{laham2012fish}
+MOHAMED~FARIS Laham, ISHTRINAYAGY~S Krishnarajah, and Jamilah~Mohd Shariff.
+\newblock Fish harvesting management strategies using logistic growth model.
+\newblock {\em Sains Malaysiana}, 41(2):171--177, 2012.
+
+\bibitem{rose2015numerical}
+Garrett~Robert Rose.
+\newblock Numerical methods for solving optimal control problems.
+\newblock 2015.
+
+\bibitem{bjorndal1988optimal}
+Trond Bj{\o}rndal.
+\newblock Optimal harvesting of farmed fish.
+\newblock {\em Marine Resource Economics}, 5(2):139--159, 1988.
+
+\bibitem{wentworth2011optimum}
+CORINNE WENTWORTH, DR~MASAMI FUJIWARA, and DRJAY WALTON.
+\newblock Optimum harvesting models for fishery populations, 2011.
+
+\bibitem{skonhoft2012optimal}
+Anders Skonhoft, Niels Vestergaard, and Martin Quaas.
+\newblock Optimal harvest in an age structured model with different fishing
+  selectivity.
+\newblock {\em Environmental and Resource Economics}, 51(4):525--544, 2012.
+
+\bibitem{meske2014fish}
+C.P.B. Meske and F.~Vogt.
+\newblock {\em Fish Aquaculture: Technology and Experiments}.
+\newblock Elsevier Science, 2014.
+
+\bibitem{ito2016functional}
+Kazufumi Ito.
+\newblock Functional analysis and optimization.
+\newblock {\em Lecture Monograph}, 2016.
+
+\bibitem{alfredfish}
+DACI Alfred.
+\newblock Fish harvesting models and their applications in a reservoir in
+  saranda, albania.
+
+\bibitem{borrelli1998differential}
+Robert~L Borrelli and Courtney~S Coleman.
+\newblock Differential equations: a modeling perspective.
+\newblock 1998.
+
+\bibitem{tanzer2015living}
+John Tanzer, Carol Phua, Barney Jeffries, Anissa Lawrence, Aimee Gonzales, Paul
+  Gamblin, and Tony Roxburgh.
+\newblock {\em Living Blue Planet Report: Species, Habitats and Human
+  Well-being}.
+\newblock WWF International, 2015.
+
+\bibitem{ambrosio2000introduction}
+Luigi Ambrosio, Norman Dancer, Giuseppe Buttazzo, Antonio Marino, and MKV
+  Murthy.
+\newblock Introduction to part ii.
+\newblock In {\em Calculus of Variations and Partial Differential Equations},
+  pages 183--184. Springer, 2000.
+
+\bibitem{PDEOpti}
+M.~Ulbrich S.~Ulbrich M.~Hinze, R.~Pinnau.
+\newblock {\em Optimization with PDE Constraints}.
+\newblock Springer, 2009.
+
+\end{thebibliography}

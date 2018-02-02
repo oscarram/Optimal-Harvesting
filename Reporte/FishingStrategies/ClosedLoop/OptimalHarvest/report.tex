@@ -14,8 +14,8 @@ with initial condition $y(0)=y_0=x_0/M$. And solution,
 \end{equation}
 Then our function in the time horizon $\bar{T}=rT$
 \begin{align}
-J\left(y;\bar{p},\bar{T}\right)&=\frac{1}{rM}\int_0^{\bar{T}}\bar{p}y(\tau)\diff{\tau}	\\
-&=\frac{\bar{p}}{rM}\left(\ln\left(1-\bar{p}+y_0\left(\euler^{(1-\bar{p})\bar{T}}-1\right)\right)-\ln\left(1-\bar{p}\right)\right)
+J\left(y;\bar{p},\bar{T}\right)&=\frac{M}{r}\int_0^{\bar{T}}\bar{p}y(\tau)\diff{\tau}	\\
+&=\frac{\bar{p}M}{r}\left(\ln\left(1-\bar{p}+y_0\left(\euler^{(1-\bar{p})\bar{T}}-1\right)\right)-\ln\left(1-\bar{p}\right)\right)
 \end{align}
 
 We would like to know the constant $\bar{p}^*$ that for a given time horizon $\bar{T}$ maximizes $J$. Therefore $\bar{p}$ should satisfy the necessary condition,
@@ -78,19 +78,20 @@ In the first two there is less harvesting, then the population is bigger, but si
 		\textbf{$\bar{p}$}            & \textbf{\begin{tabular}[c]{@{}r@{}}$J(x;T,p,r,M,x0)$\\ (in Millions of fishes harvested)\end{tabular}} \\
 		\toprule
 		\rowcolor[HTML]{CEFB9C} 
-		$ \bar{p}^*$& 4.698153484016761                                                                                    \\
+		$ \bar{p}^*$& 3.75852278721341                                                                                    \\
 		\rowcolor[HTML]{E2F7E2} 
-		$\bar{p}^*-0.001$             & 4.698138002580389                                                                                    \\
+		$\bar{p}^*-0.001$             & 3.75851040206431                                                                                \\
 		\rowcolor[HTML]{E2F7E2} 
-		$\bar{p}^*+0.001$             & 4.698138014054768                                                                                    \\
+		$\bar{p}^*+0.001$             & 3.75851041124381                                                                                  \\
 		\rowcolor[HTML]{E2F7E2} 
-		$\bar{p}^*-0.01$              & 4.696602091505628                                                                                    \\
+		$\bar{p}^*-0.01$              & 
+		3.75728167320450 \\
 		\rowcolor[HTML]{E2F7E2} 
-		$\bar{p}^*+0.01$              & 4.696609852932111                                                                                    \\
+		$\bar{p}^*+0.01$              & 3.75728788234568                                                                                   \\
 		\rowcolor[HTML]{E2F7E2} 
-		$\bar{p}^*-0.1$               & 4.540022027777682                                                                                    \\
+		$\bar{p}^*-0.1$               & 3.63201762222214 \\
 		\rowcolor[HTML]{E2F7E2} 
-		$\bar{p}^*+0.1$               & 4.547918150118066                                                                                    \\ \bottomrule
+		$\bar{p}^*+0.1$               & 3.63833452009445 \\ \bottomrule
 	\end{tabular}
 	\caption{Harvested fish $J(x; \bar{p}, T, M, r, x_0)$ in units of million of fishes  with different $\bar{p}$, for $T=24$, $r=0.8$, $M=780500$, $x_0=390250$}
 	\label{tab: OptimumHarvestFish}

@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Reporte.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib.bib
+Warning--empty journal in suri2008optimal
+Warning--empty journal in rose2015numerical
+Warning--empty journal in alfredfish
+Warning--empty year in alfredfish
+Warning--empty journal in borrelli1998differential
+Too many commas in name 1 of "M. Hinze, R. Pinnau, M. Ulbrich, S. Ulbrich" for entry PDEOpti
+while executing---line 944 of file unsrt.bst
+You've used 16 entries,
+            1791 wiz_defined-function locations,
+            527 strings with 5801 characters,
+and the built_in function-call counts, 2869 in all, are:
+= -- 238
+> -- 123
+< -- 1
++ -- 49
+- -- 33
+* -- 143
+:= -- 455
+add.period$ -- 45
+call.type$ -- 16
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 144
+empty$ -- 311
+format.name$ -- 33
+if$ -- 646
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 17
+newline$ -- 79
+num.names$ -- 14
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 64
+stack$ -- 0
+substring$ -- 107
+swap$ -- 21
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 23
+width$ -- 18
+write$ -- 153
+(There was 1 error message)
